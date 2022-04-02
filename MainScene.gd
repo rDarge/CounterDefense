@@ -2,7 +2,7 @@ extends Node2D
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
-var client_id;
+var client_id = null;
 var counters;
 var elapsedSinceUpdate = 0;
 
@@ -62,16 +62,17 @@ func _on_get_counters(result, response_code, headers, body, request):
 	
 func getCounters(): 
 	print("getting counters")
-	var request = HTTPRequest.new();
-	$requests.add_child(request);
-	request.connect("request_completed", self, "_on_get_counters", [request])
-	var query = "{\"clientId\": \""+client_id+"\",\"command\": \"getCounters\"}";
-	var headers = ["Content-Type: application/json"]
-	print(query)
-	var result = request.request("http://127.0.0.1:3002/rpc", headers, false, HTTPClient.METHOD_POST, query);
-	if(result != OK):
-		print("not okay,")
-		print(result)
+	if(client_id != null):
+		var request = HTTPRequest.new();
+		$requests.add_child(request);
+		request.connect("request_completed", self, "_on_get_counters", [request])
+		var query = "{\"clientId\": \""+client_id+"\",\"command\": \"getCounters\"}";
+		var headers = ["Content-Type: application/json"]
+		print(query)
+		var result = request.request("http://127.0.0.1:3002/rpc", headers, false, HTTPClient.METHOD_POST, query);
+		if(result != OK):
+			print("not okay,")
+			print(result)
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -107,7 +108,7 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	elapsedSinceUpdate += delta;
-	if(elapsedSinceUpdate > 2):
+	if(elapsedSinceUpdate > 2 && client_id != null):
 		getCounters();
 		elapsedSinceUpdate = 0;
 	pass
