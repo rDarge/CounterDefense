@@ -1,7 +1,5 @@
 extends Node2D
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+
 var client_id;
 var counters;
 var elapsedSinceUpdate = 0;
@@ -13,14 +11,10 @@ signal air(old_value, new_value)
 signal aether(old_value, new_value)
 
 func updateText(old_value, new_value, label, prefix):
-	print("updating text!!")
-	print(label);
 	label.text = prefix + str(new_value)
 
 func updateCounters(result):
-	print("updating counters with ", result)
 	if(result.fire != counters.fire):
-		print("fire is updated")
 		var old = counters.fire
 		counters.fire = result.fire
 		emit_signal("fire", old, result.fire)
@@ -42,32 +36,22 @@ func updateCounters(result):
 		emit_signal("aether", old, result.aether)
 
 func _on_request_completed(result, response_code, headers, body):
-	print("about to parse response")
-	print(result)
-	print(response_code)
 	var json = JSON.parse(body.get_string_from_utf8())
 	client_id = json.result.clientId;
 	print(json.result)
 
 func _on_get_counters(result, response_code, headers, body, request):
-	print("about to parse counter response")
-	print(result)
-	print(response_code)
 	var json = JSON.parse(body.get_string_from_utf8())
-	#print(json.result.fire)
 	if("result" in json.result && "fire" in json.result.result):
-		print("fire is in json.result")
 		updateCounters(json.result.result)
 	request.queue_free()
 	
 func getCounters(): 
-	print("getting counters")
 	var request = HTTPRequest.new();
 	$requests.add_child(request);
 	request.connect("request_completed", self, "_on_get_counters", [request])
 	var query = "{\"clientId\": \""+client_id+"\",\"command\": \"getCounters\"}";
 	var headers = ["Content-Type: application/json"]
-	print(query)
 	var result = request.request("http://127.0.0.1:3002/rpc", headers, false, HTTPClient.METHOD_POST, query);
 	if(result != OK):
 		print("not okay,")
@@ -76,10 +60,7 @@ func getCounters():
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CONFINED)
-	$CounterLabel.text = "this is updated from a script";
 	
-	$HTTPRequest.connect("request_completed", self, "_on_request_completed")
-	$GetCountersButton.connect("pressed", self, "getCounters")
 	connect("fire", self, "updateText", [$fireLabel, "Fire: "])
 	connect("water", self, "updateText", [$waterLabel, "Water: "])
 	connect("earth", self, "updateText", [$earthLabel, "Earth: "])
@@ -94,14 +75,13 @@ func _ready():
 		"aether": 0	
 	};
 
-	
+	$HTTPRequest.connect("request_completed", self, "_on_request_completed")	
 	var query = "{\"command\": \"register\"}";
 	var headers = ["Content-Type: application/json"]
 	var result = $HTTPRequest.request("http://127.0.0.1:3002/rpc", headers, false, HTTPClient.METHOD_POST, query);
-	#var result = $HTTPRequest.request("http://www.mocky.io/v2/5185415ba171ea3a00704eed")
 	if(result != OK):
 		print("not okay " +result);
-	pass # Replace with function body.
+	pass
 
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -115,15 +95,6 @@ func _process(delta):
 var tower_obj = load("res://Tower.tscn")
 var hbar = load("res://ui/object_info.tscn")
 var placed = false
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-
 
 func _input(event):
 	if event is InputEventMouseButton:
