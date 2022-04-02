@@ -146,8 +146,8 @@ func spawn_object(position):
 	add_child(tower)
 	print("Tower: ", tower.position)
 	#print("Health: ", health.position)
-	
+	placed = true
 	if placed == true:
-		$UI/PlacementWindow.visible = false
+		$PlacementWindow.visible = 0
 		#begin_level()
 
