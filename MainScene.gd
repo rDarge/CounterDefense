@@ -104,7 +104,7 @@ func _input(event):
 		
 	if event.is_action_pressed("click"):
 		print("Clicked!")
-		if Input.get_mouse_mode() == Input.MOUSE_MODE_VISIBLE:
+		if Input.get_mouse_mode() == Input.MOUSE_MODE_VISIBLE && OS.get_name() != "HTML5":
 			Input.set_mouse_mode(Input.MOUSE_MODE_CONFINED)
 		elif placed == false:
 			var mouse_pos = get_viewport().get_mouse_position()
