@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/Character2.png" type="Texture" id=1]
+
+[node name="Enemy" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 79, 284 )
+scale = Vector2( 0.351852, 0.366071 )
+texture = ExtResource( 1 )
