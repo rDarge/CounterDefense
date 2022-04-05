@@ -1,4 +1,4 @@
-[gd_scene load_steps=579 format=2]
+[gd_scene load_steps=629 format=2]
 
 [ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_09.png" type="Texture" id=1]
 [ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_16.png" type="Texture" id=2]
@@ -236,6 +236,56 @@
 [ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_00.png" type="Texture" id=234]
 [ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_12.png" type="Texture" id=235]
 [ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_15.png" type="Texture" id=236]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_07.png" type="Texture" id=237]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_16.png" type="Texture" id=238]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_17.png" type="Texture" id=239]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_22.png" type="Texture" id=240]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_02.png" type="Texture" id=241]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_13.png" type="Texture" id=242]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_12.png" type="Texture" id=243]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_08.png" type="Texture" id=244]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_20.png" type="Texture" id=245]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_22.png" type="Texture" id=246]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_16.png" type="Texture" id=247]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_00.png" type="Texture" id=248]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_05.png" type="Texture" id=249]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_19.png" type="Texture" id=250]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_05.png" type="Texture" id=251]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_11.png" type="Texture" id=252]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_23.png" type="Texture" id=253]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_13.png" type="Texture" id=254]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_01.png" type="Texture" id=255]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_02.png" type="Texture" id=256]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_21.png" type="Texture" id=257]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_20.png" type="Texture" id=258]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_12.png" type="Texture" id=259]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_19.png" type="Texture" id=260]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_18.png" type="Texture" id=261]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_21.png" type="Texture" id=262]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_24.png" type="Texture" id=263]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_09.png" type="Texture" id=264]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_09.png" type="Texture" id=265]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_23.png" type="Texture" id=266]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_14.png" type="Texture" id=267]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_17.png" type="Texture" id=268]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_04.png" type="Texture" id=269]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_03.png" type="Texture" id=270]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_00.png" type="Texture" id=271]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_01.png" type="Texture" id=272]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_03.png" type="Texture" id=273]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_04.png" type="Texture" id=274]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_06.png" type="Texture" id=275]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_15.png" type="Texture" id=276]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_07.png" type="Texture" id=277]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_24.png" type="Texture" id=278]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_06.png" type="Texture" id=279]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_10.png" type="Texture" id=280]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_11.png" type="Texture" id=281]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_18.png" type="Texture" id=282]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_14.png" type="Texture" id=283]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_15.png" type="Texture" id=284]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_10.png" type="Texture" id=285]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_08.png" type="Texture" id=286]
 
 [sub_resource type="AtlasTexture" id=27]
 flags = 4
@@ -2008,6 +2058,16 @@ animations = [ {
 "name": "default",
 "speed": 20.0
 }, {
+"frames": [ ExtResource( 271 ), ExtResource( 255 ), ExtResource( 241 ), ExtResource( 270 ), ExtResource( 269 ), ExtResource( 251 ), ExtResource( 275 ), ExtResource( 277 ), ExtResource( 244 ), ExtResource( 265 ), ExtResource( 285 ), ExtResource( 252 ), ExtResource( 243 ), ExtResource( 242 ), ExtResource( 267 ), ExtResource( 276 ), ExtResource( 247 ), ExtResource( 268 ), ExtResource( 282 ), ExtResource( 260 ), ExtResource( 245 ), ExtResource( 262 ), ExtResource( 246 ), ExtResource( 266 ), ExtResource( 278 ) ],
+"loop": true,
+"name": "idle",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 144 ), ExtResource( 129 ), ExtResource( 146 ), ExtResource( 138 ), ExtResource( 148 ), ExtResource( 158 ), ExtResource( 123 ), ExtResource( 119 ), ExtResource( 150 ), ExtResource( 130 ), ExtResource( 120 ), ExtResource( 141 ), ExtResource( 124 ), ExtResource( 156 ), ExtResource( 125 ), ExtResource( 142 ), ExtResource( 132 ), ExtResource( 163 ), ExtResource( 143 ), ExtResource( 134 ), ExtResource( 122 ), ExtResource( 135 ), ExtResource( 145 ), ExtResource( 151 ), ExtResource( 149 ) ],
+"loop": true,
+"name": "hit",
+"speed": 20.0
+}, {
 "frames": [ ExtResource( 93 ), ExtResource( 84 ), ExtResource( 95 ), ExtResource( 99 ), ExtResource( 88 ), ExtResource( 97 ), ExtResource( 83 ), ExtResource( 100 ), ExtResource( 101 ), ExtResource( 102 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 92 ), ExtResource( 89 ), ExtResource( 94 ), ExtResource( 91 ), ExtResource( 105 ), ExtResource( 90 ), ExtResource( 106 ), ExtResource( 107 ), ExtResource( 73 ), ExtResource( 72 ), ExtResource( 39 ), ExtResource( 63 ), ExtResource( 67 ) ],
 "loop": true,
 "name": "death",
@@ -2017,11 +2077,6 @@ animations = [ {
 "loop": true,
 "name": "grr",
 "speed": 20.0
-}, {
-"frames": [ ExtResource( 144 ), ExtResource( 129 ), ExtResource( 146 ), ExtResource( 138 ), ExtResource( 148 ), ExtResource( 158 ), ExtResource( 123 ), ExtResource( 119 ), ExtResource( 150 ), ExtResource( 130 ), ExtResource( 120 ), ExtResource( 141 ), ExtResource( 124 ), ExtResource( 156 ), ExtResource( 125 ), ExtResource( 142 ), ExtResource( 132 ), ExtResource( 163 ), ExtResource( 143 ), ExtResource( 134 ), ExtResource( 122 ), ExtResource( 135 ), ExtResource( 145 ), ExtResource( 151 ), ExtResource( 149 ) ],
-"loop": true,
-"name": "hit",
-"speed": 20.0
 } ]
 
 [sub_resource type="SpriteFrames" id=342]
@@ -2029,6 +2084,16 @@ animations = [ {
 "frames": [ ExtResource( 61 ), ExtResource( 62 ), ExtResource( 68 ), ExtResource( 45 ), ExtResource( 43 ), ExtResource( 71 ), ExtResource( 206 ), ExtResource( 205 ), ExtResource( 203 ), ExtResource( 204 ), ExtResource( 230 ), ExtResource( 224 ), ExtResource( 235 ), ExtResource( 213 ), ExtResource( 232 ), ExtResource( 236 ), ExtResource( 220 ), ExtResource( 207 ), ExtResource( 208 ), ExtResource( 210 ), ExtResource( 212 ), ExtResource( 209 ), ExtResource( 211 ), ExtResource( 214 ), ExtResource( 202 ) ],
 "loop": true,
 "name": "default",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 248 ), ExtResource( 272 ), ExtResource( 256 ), ExtResource( 273 ), ExtResource( 274 ), ExtResource( 249 ), ExtResource( 279 ), ExtResource( 237 ), ExtResource( 286 ), ExtResource( 264 ), ExtResource( 280 ), ExtResource( 281 ), ExtResource( 259 ), ExtResource( 254 ), ExtResource( 283 ), ExtResource( 284 ), ExtResource( 238 ), ExtResource( 239 ), ExtResource( 261 ), ExtResource( 250 ), ExtResource( 258 ), ExtResource( 257 ), ExtResource( 240 ), ExtResource( 253 ), ExtResource( 263 ) ],
+"loop": true,
+"name": "idle",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 188 ), ExtResource( 190 ), ExtResource( 154 ), ExtResource( 157 ), ExtResource( 121 ), ExtResource( 165 ), ExtResource( 152 ), ExtResource( 147 ), ExtResource( 136 ), ExtResource( 159 ), ExtResource( 126 ), ExtResource( 160 ), ExtResource( 137 ), ExtResource( 131 ), ExtResource( 128 ), ExtResource( 153 ), ExtResource( 164 ), ExtResource( 133 ), ExtResource( 161 ), ExtResource( 127 ), ExtResource( 140 ), ExtResource( 162 ), ExtResource( 139 ), ExtResource( 155 ), ExtResource( 166 ) ],
+"loop": true,
+"name": "hit",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 234 ), ExtResource( 231 ), ExtResource( 216 ), ExtResource( 215 ), ExtResource( 217 ), ExtResource( 218 ), ExtResource( 226 ), ExtResource( 219 ), ExtResource( 221 ), ExtResource( 222 ), ExtResource( 233 ), ExtResource( 227 ), ExtResource( 223 ), ExtResource( 228 ), ExtResource( 225 ), ExtResource( 229 ), ExtResource( 196 ), ExtResource( 201 ), ExtResource( 172 ), ExtResource( 194 ), ExtResource( 173 ), ExtResource( 178 ), ExtResource( 182 ), ExtResource( 168 ) ],
@@ -2040,11 +2105,6 @@ animations = [ {
 "loop": true,
 "name": "grr",
 "speed": 20.0
-}, {
-"frames": [ ExtResource( 188 ), ExtResource( 190 ), ExtResource( 154 ), ExtResource( 157 ), ExtResource( 121 ), ExtResource( 165 ), ExtResource( 152 ), ExtResource( 147 ), ExtResource( 136 ), ExtResource( 159 ), ExtResource( 126 ), ExtResource( 160 ), ExtResource( 137 ), ExtResource( 131 ), ExtResource( 128 ), ExtResource( 153 ), ExtResource( 164 ), ExtResource( 133 ), ExtResource( 161 ), ExtResource( 127 ), ExtResource( 140 ), ExtResource( 162 ), ExtResource( 139 ), ExtResource( 155 ), ExtResource( 166 ) ],
-"loop": true,
-"name": "hit",
-"speed": 20.0
 } ]
 
 [node name="Node2D" type="Node2D"]
@@ -2054,7 +2114,7 @@ script = ExtResource( 36 )
 position = Vector2( 874, 161 )
 frames = SubResource( 85 )
 animation = "walkBite"
-frame = 2
+frame = 9
 speed_scale = 4.0
 playing = true
 
@@ -2063,7 +2123,7 @@ position = Vector2( 837, 432 )
 scale = Vector2( 1.26058, 1.26058 )
 frames = SubResource( 148 )
 animation = "grr"
-frame = 57
+frame = 110
 speed_scale = 4.0
 playing = true
 
@@ -2072,7 +2132,7 @@ position = Vector2( 544, 129 )
 scale = Vector2( 7.3125, 7.3125 )
 frames = SubResource( 161 )
 animation = "walk"
-frame = 2
+frame = 11
 speed_scale = 1.5
 playing = true
 
@@ -2082,7 +2142,7 @@ stream = ExtResource( 35 )
 [node name="Effect_Lightning" type="AnimatedSprite" parent="."]
 position = Vector2( 272, 859 )
 frames = SubResource( 21 )
-frame = 16
+frame = 9
 playing = true
 flip_v = true
 
@@ -2090,6 +2150,7 @@ flip_v = true
 position = Vector2( 648, 839 )
 scale = Vector2( 7, 7 )
 frames = SubResource( 186 )
+frame = 16
 speed_scale = 5.0
 playing = true
 
@@ -2097,7 +2158,7 @@ playing = true
 position = Vector2( 199, 261 )
 scale = Vector2( 19.0312, 19.0312 )
 frames = SubResource( 11 )
-frame = 1
+frame = 4
 playing = true
 
 [node name="Tower_CatLauncher" type="AnimatedSprite" parent="."]
@@ -2105,7 +2166,7 @@ position = Vector2( 237, 357 )
 scale = Vector2( 15.4219, 15.4219 )
 frames = SubResource( 20 )
 animation = "Launch"
-frame = 3
+frame = 1
 playing = true
 flip_h = true
 
@@ -2113,17 +2174,18 @@ flip_h = true
 position = Vector2( 1061, 661 )
 frames = SubResource( 200 )
 animation = "beam"
-frame = 11
+frame = 12
 speed_scale = 3.0
 playing = true
 
 [node name="Eye_Boi_1" type="AnimatedSprite" parent="."]
 position = Vector2( 1236, 246 )
 frames = SubResource( 341 )
-frame = 12
+frame = 8
 playing = true
 
 [node name="Eye_Boi_2" type="AnimatedSprite" parent="."]
 position = Vector2( 1540, 214 )
 frames = SubResource( 342 )
+frame = 19
 playing = true
