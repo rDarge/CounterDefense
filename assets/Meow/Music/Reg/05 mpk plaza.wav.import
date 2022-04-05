@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/05 mpk plaza.wav-5f0d4c70092ab31942779fbb64fbe7b4.sample"
+
+[deps]
+
+source_file="res://Meow/Music/Reg/05 mpk plaza.wav"
+dest_files=[ "res://.import/05 mpk plaza.wav-5f0d4c70092ab31942779fbb64fbe7b4.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

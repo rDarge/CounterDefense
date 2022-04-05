@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Memoraphile - So Many Spiders.mp3-b8af72db9bbab3ee9d40f8daab95b985.mp3str"
+
+[deps]
+
+source_file="res://Meow/Music/Boss/Memoraphile - So Many Spiders.mp3"
+dest_files=[ "res://.import/Memoraphile - So Many Spiders.mp3-b8af72db9bbab3ee9d40f8daab95b985.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
