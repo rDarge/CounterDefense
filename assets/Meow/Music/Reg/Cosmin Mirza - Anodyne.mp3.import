@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Cosmin Mirza - Anodyne.mp3-33e6afa5dc35dec12fbf0dce374d561e.mp3str"
+
+[deps]
+
+source_file="res://Meow/Music/Reg/Cosmin Mirza - Anodyne.mp3"
+dest_files=[ "res://.import/Cosmin Mirza - Anodyne.mp3-33e6afa5dc35dec12fbf0dce374d561e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/04 spaceship earth.wav-0d8eb971c8ee66e9115d6dcf757c219f.sample"
+
+[deps]
+
+source_file="res://Meow/Music/Reg/04 spaceship earth.wav"
+dest_files=[ "res://.import/04 spaceship earth.wav-0d8eb971c8ee66e9115d6dcf757c219f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Memoraphile - I Wish You Would.mp3-ba5479120be05e51feb2e4e7e4d9d78b.mp3str"
+
+[deps]
+
+source_file="res://Meow/Music/Boss/Memoraphile - I Wish You Would.mp3"
+dest_files=[ "res://.import/Memoraphile - I Wish You Would.mp3-ba5479120be05e51feb2e4e7e4d9d78b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
