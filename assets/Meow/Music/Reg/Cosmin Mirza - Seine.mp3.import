@@ -11,5 +11,5 @@ dest_files=[ "res://.import/Cosmin Mirza - Seine.mp3-a0abc7e8b7ef883c420f85344c6
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

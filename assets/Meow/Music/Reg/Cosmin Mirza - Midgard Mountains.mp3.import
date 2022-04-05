@@ -11,5 +11,5 @@ dest_files=[ "res://.import/Cosmin Mirza - Midgard Mountains.mp3-1d23621dd4256cf
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

@@ -11,5 +11,5 @@ dest_files=[ "res://.import/Cosmin Mirza - Flesh & Bones.mp3-a2d589a416a062e2fa0
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

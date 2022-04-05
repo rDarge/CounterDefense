@@ -11,5 +11,5 @@ dest_files=[ "res://.import/Cosmin Mirza - Anodyne.mp3-33e6afa5dc35dec12fbf0dce3
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

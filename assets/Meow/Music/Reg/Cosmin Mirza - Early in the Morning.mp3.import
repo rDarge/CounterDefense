@@ -11,5 +11,5 @@ dest_files=[ "res://.import/Cosmin Mirza - Early in the Morning.mp3-ee40246c40cc
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

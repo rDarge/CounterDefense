@@ -1,4 +1,4 @@
-[gd_scene load_steps=378 format=2]
+[gd_scene load_steps=579 format=2]
 
 [ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_09.png" type="Texture" id=1]
 [ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_16.png" type="Texture" id=2]
@@ -37,6 +37,205 @@
 [ext_resource path="res://Meow/Music/Boss/NoToneTyrone - The Gargamel (LOOPED).wav" type="AudioStream" id=35]
 [ext_resource path="res://Meow/DynamicAudio.gd" type="Script" id=36]
 [ext_resource path="res://Meow/Mobs/Boss/Laser Flea/lasser_swept.png" type="Texture" id=37]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_14.png" type="Texture" id=38]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_22.png" type="Texture" id=39]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_03.png" type="Texture" id=40]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_00.png" type="Texture" id=41]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_16.png" type="Texture" id=42]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_04.png" type="Texture" id=43]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_08.png" type="Texture" id=44]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_03.png" type="Texture" id=45]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_01.png" type="Texture" id=46]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_06.png" type="Texture" id=47]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_13.png" type="Texture" id=48]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_15.png" type="Texture" id=49]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_10.png" type="Texture" id=50]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_18.png" type="Texture" id=51]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_12.png" type="Texture" id=52]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_22.png" type="Texture" id=53]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_02.png" type="Texture" id=54]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_19.png" type="Texture" id=55]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_09.png" type="Texture" id=56]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_24.png" type="Texture" id=57]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_11.png" type="Texture" id=58]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_23.png" type="Texture" id=59]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_04.png" type="Texture" id=60]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_00.png" type="Texture" id=61]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_01.png" type="Texture" id=62]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_23.png" type="Texture" id=63]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_05.png" type="Texture" id=64]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_17.png" type="Texture" id=65]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_21.png" type="Texture" id=66]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_24.png" type="Texture" id=67]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_02.png" type="Texture" id=68]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_20.png" type="Texture" id=69]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_07.png" type="Texture" id=70]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_05.png" type="Texture" id=71]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_21.png" type="Texture" id=72]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_20.png" type="Texture" id=73]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_18.png" type="Texture" id=74]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_13.png" type="Texture" id=75]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_12.png" type="Texture" id=76]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_20.png" type="Texture" id=77]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_21.png" type="Texture" id=78]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_24.png" type="Texture" id=79]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_10.png" type="Texture" id=80]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_11.png" type="Texture" id=81]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_15.png" type="Texture" id=82]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_06.png" type="Texture" id=83]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_01.png" type="Texture" id=84]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_11.png" type="Texture" id=85]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_19.png" type="Texture" id=86]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_22.png" type="Texture" id=87]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_04.png" type="Texture" id=88]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_13.png" type="Texture" id=89]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_17.png" type="Texture" id=90]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_15.png" type="Texture" id=91]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_12.png" type="Texture" id=92]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_00.png" type="Texture" id=93]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_14.png" type="Texture" id=94]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_02.png" type="Texture" id=95]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_16.png" type="Texture" id=96]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_05.png" type="Texture" id=97]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_14.png" type="Texture" id=98]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_03.png" type="Texture" id=99]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_07.png" type="Texture" id=100]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_08.png" type="Texture" id=101]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_09.png" type="Texture" id=102]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_23.png" type="Texture" id=103]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_17.png" type="Texture" id=104]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_16.png" type="Texture" id=105]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_18.png" type="Texture" id=106]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_19.png" type="Texture" id=107]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_08.png" type="Texture" id=108]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_09.png" type="Texture" id=109]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_10.png" type="Texture" id=110]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_00.png" type="Texture" id=111]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_01.png" type="Texture" id=112]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_02.png" type="Texture" id=113]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_04.png" type="Texture" id=114]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_03.png" type="Texture" id=115]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_07.png" type="Texture" id=116]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_05.png" type="Texture" id=117]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_06.png" type="Texture" id=118]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_07.png" type="Texture" id=119]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_10.png" type="Texture" id=120]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_04.png" type="Texture" id=121]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_20.png" type="Texture" id=122]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_06.png" type="Texture" id=123]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_12.png" type="Texture" id=124]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_14.png" type="Texture" id=125]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_10.png" type="Texture" id=126]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_19.png" type="Texture" id=127]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_14.png" type="Texture" id=128]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_01.png" type="Texture" id=129]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_09.png" type="Texture" id=130]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_13.png" type="Texture" id=131]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_16.png" type="Texture" id=132]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_17.png" type="Texture" id=133]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_19.png" type="Texture" id=134]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_21.png" type="Texture" id=135]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_08.png" type="Texture" id=136]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_12.png" type="Texture" id=137]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_03.png" type="Texture" id=138]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_22.png" type="Texture" id=139]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_20.png" type="Texture" id=140]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_11.png" type="Texture" id=141]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_15.png" type="Texture" id=142]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_18.png" type="Texture" id=143]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_00.png" type="Texture" id=144]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_22.png" type="Texture" id=145]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_02.png" type="Texture" id=146]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_07.png" type="Texture" id=147]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_04.png" type="Texture" id=148]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_24.png" type="Texture" id=149]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_08.png" type="Texture" id=150]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_23.png" type="Texture" id=151]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_06.png" type="Texture" id=152]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_15.png" type="Texture" id=153]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_02.png" type="Texture" id=154]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_23.png" type="Texture" id=155]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_13.png" type="Texture" id=156]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_03.png" type="Texture" id=157]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_05.png" type="Texture" id=158]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_09.png" type="Texture" id=159]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_11.png" type="Texture" id=160]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_18.png" type="Texture" id=161]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_21.png" type="Texture" id=162]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_17.png" type="Texture" id=163]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_16.png" type="Texture" id=164]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_05.png" type="Texture" id=165]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_24.png" type="Texture" id=166]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_06.png" type="Texture" id=167]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_23.png" type="Texture" id=168]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_02.png" type="Texture" id=169]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_18.png" type="Texture" id=170]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_17.png" type="Texture" id=171]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_18.png" type="Texture" id=172]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_20.png" type="Texture" id=173]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_08.png" type="Texture" id=174]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_19.png" type="Texture" id=175]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_20.png" type="Texture" id=176]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_22.png" type="Texture" id=177]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_21.png" type="Texture" id=178]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_00.png" type="Texture" id=179]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_12.png" type="Texture" id=180]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_14.png" type="Texture" id=181]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_22.png" type="Texture" id=182]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_09.png" type="Texture" id=183]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_16.png" type="Texture" id=184]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_21.png" type="Texture" id=185]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_23.png" type="Texture" id=186]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_24.png" type="Texture" id=187]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_00.png" type="Texture" id=188]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_13.png" type="Texture" id=189]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_01.png" type="Texture" id=190]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_10.png" type="Texture" id=191]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_15.png" type="Texture" id=192]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_05.png" type="Texture" id=193]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_19.png" type="Texture" id=194]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_07.png" type="Texture" id=195]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_16.png" type="Texture" id=196]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_01.png" type="Texture" id=197]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_11.png" type="Texture" id=198]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_03.png" type="Texture" id=199]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_04.png" type="Texture" id=200]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_17.png" type="Texture" id=201]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_24.png" type="Texture" id=202]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_08.png" type="Texture" id=203]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_09.png" type="Texture" id=204]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_07.png" type="Texture" id=205]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_06.png" type="Texture" id=206]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_17.png" type="Texture" id=207]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_18.png" type="Texture" id=208]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_21.png" type="Texture" id=209]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_19.png" type="Texture" id=210]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_22.png" type="Texture" id=211]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_20.png" type="Texture" id=212]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_13.png" type="Texture" id=213]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_23.png" type="Texture" id=214]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_03.png" type="Texture" id=215]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_02.png" type="Texture" id=216]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_04.png" type="Texture" id=217]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_05.png" type="Texture" id=218]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_07.png" type="Texture" id=219]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_16.png" type="Texture" id=220]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_08.png" type="Texture" id=221]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_09.png" type="Texture" id=222]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_12.png" type="Texture" id=223]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_11.png" type="Texture" id=224]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_14.png" type="Texture" id=225]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_06.png" type="Texture" id=226]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_11.png" type="Texture" id=227]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_13.png" type="Texture" id=228]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_15.png" type="Texture" id=229]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_10.png" type="Texture" id=230]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_01.png" type="Texture" id=231]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_14.png" type="Texture" id=232]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_10.png" type="Texture" id=233]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_00.png" type="Texture" id=234]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_12.png" type="Texture" id=235]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_15.png" type="Texture" id=236]
 
 [sub_resource type="AtlasTexture" id=27]
 flags = 4
@@ -661,6 +860,101 @@ flags = 4
 atlas = ExtResource( 25 )
 region = Rect2( 1485, 657, 297, 219 )
 
+[sub_resource type="AtlasTexture" id=105]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 0, 0, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=106]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 212, 0, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=107]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 424, 0, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=108]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 636, 0, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=109]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 848, 0, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=110]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 0, 209, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=111]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 212, 209, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=112]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 424, 209, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=113]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 636, 209, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=114]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 848, 209, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=115]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 0, 418, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=116]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 212, 418, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=117]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 424, 418, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=118]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 636, 418, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=119]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 848, 418, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=120]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 0, 627, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=121]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 212, 627, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=122]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 424, 627, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=123]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 636, 627, 212, 209 )
+
 [sub_resource type="AtlasTexture" id=220]
 flags = 4
 atlas = ExtResource( 37 )
@@ -1266,101 +1560,6 @@ flags = 4
 atlas = ExtResource( 37 )
 region = Rect2( 2210, 2240, 221, 224 )
 
-[sub_resource type="AtlasTexture" id=105]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 0, 0, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=106]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 212, 0, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=107]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 424, 0, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=108]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 636, 0, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=109]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 848, 0, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=110]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 0, 209, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=111]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 212, 209, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=112]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 424, 209, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=113]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 636, 209, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=114]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 848, 209, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=115]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 0, 418, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=116]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 212, 418, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=117]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 424, 418, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=118]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 636, 418, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=119]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 848, 418, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=120]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 0, 627, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=121]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 212, 627, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=122]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 424, 627, 212, 209 )
-
-[sub_resource type="AtlasTexture" id=123]
-flags = 4
-atlas = ExtResource( 24 )
-region = Rect2( 636, 627, 212, 209 )
-
 [sub_resource type="SpriteFrames" id=148]
 animations = [ {
 "frames": [ SubResource( 86 ), SubResource( 87 ), SubResource( 88 ), SubResource( 89 ), SubResource( 90 ), SubResource( 91 ), SubResource( 92 ), SubResource( 93 ), SubResource( 94 ), SubResource( 95 ), SubResource( 96 ), SubResource( 97 ), SubResource( 98 ), SubResource( 99 ), SubResource( 100 ), SubResource( 101 ), SubResource( 102 ), SubResource( 103 ), SubResource( 104 ) ],
@@ -1373,15 +1572,15 @@ animations = [ {
 "name": "death",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 220 ), SubResource( 221 ), SubResource( 222 ), SubResource( 223 ), SubResource( 224 ), SubResource( 225 ), SubResource( 226 ), SubResource( 227 ), SubResource( 228 ), SubResource( 229 ), SubResource( 230 ), SubResource( 231 ), SubResource( 232 ), SubResource( 233 ), SubResource( 234 ), SubResource( 235 ), SubResource( 236 ), SubResource( 237 ), SubResource( 238 ), SubResource( 239 ), SubResource( 240 ), SubResource( 241 ), SubResource( 242 ), SubResource( 243 ), SubResource( 244 ), SubResource( 245 ), SubResource( 246 ), SubResource( 247 ), SubResource( 248 ), SubResource( 249 ), SubResource( 250 ), SubResource( 251 ), SubResource( 252 ), SubResource( 253 ), SubResource( 254 ), SubResource( 255 ), SubResource( 256 ), SubResource( 257 ), SubResource( 258 ), SubResource( 259 ), SubResource( 260 ), SubResource( 261 ), SubResource( 262 ), SubResource( 263 ), SubResource( 264 ), SubResource( 265 ), SubResource( 266 ), SubResource( 267 ), SubResource( 268 ), SubResource( 269 ), SubResource( 270 ), SubResource( 271 ), SubResource( 272 ), SubResource( 273 ), SubResource( 274 ), SubResource( 275 ), SubResource( 276 ), SubResource( 277 ), SubResource( 278 ), SubResource( 279 ), SubResource( 280 ), SubResource( 281 ), SubResource( 282 ), SubResource( 283 ), SubResource( 284 ), SubResource( 285 ), SubResource( 286 ), SubResource( 287 ), SubResource( 288 ), SubResource( 289 ), SubResource( 290 ), SubResource( 291 ), SubResource( 292 ), SubResource( 293 ), SubResource( 294 ), SubResource( 295 ), SubResource( 296 ), SubResource( 297 ), SubResource( 298 ), SubResource( 299 ), SubResource( 300 ), SubResource( 301 ), SubResource( 302 ), SubResource( 303 ), SubResource( 304 ), SubResource( 305 ), SubResource( 306 ), SubResource( 307 ), SubResource( 308 ), SubResource( 309 ), SubResource( 310 ), SubResource( 311 ), SubResource( 312 ), SubResource( 313 ), SubResource( 314 ), SubResource( 315 ), SubResource( 316 ), SubResource( 317 ), SubResource( 318 ), SubResource( 319 ), SubResource( 320 ), SubResource( 321 ), SubResource( 322 ), SubResource( 323 ), SubResource( 324 ), SubResource( 325 ), SubResource( 326 ), SubResource( 327 ), SubResource( 328 ), SubResource( 329 ), SubResource( 330 ), SubResource( 331 ), SubResource( 332 ), SubResource( 333 ), SubResource( 334 ), SubResource( 335 ), SubResource( 336 ), SubResource( 337 ), SubResource( 338 ), SubResource( 339 ), SubResource( 340 ) ],
-"loop": true,
-"name": "grr",
-"speed": 10.0
-}, {
 "frames": [ SubResource( 105 ), SubResource( 106 ), SubResource( 107 ), SubResource( 108 ), SubResource( 109 ), SubResource( 110 ), SubResource( 111 ), SubResource( 112 ), SubResource( 113 ), SubResource( 114 ), SubResource( 115 ), SubResource( 116 ), SubResource( 117 ), SubResource( 118 ), SubResource( 119 ), SubResource( 120 ), SubResource( 121 ), SubResource( 122 ), SubResource( 123 ) ],
 "loop": true,
 "name": "walk up",
 "speed": 5.0
+}, {
+"frames": [ SubResource( 220 ), SubResource( 221 ), SubResource( 222 ), SubResource( 223 ), SubResource( 224 ), SubResource( 225 ), SubResource( 226 ), SubResource( 227 ), SubResource( 228 ), SubResource( 229 ), SubResource( 230 ), SubResource( 231 ), SubResource( 232 ), SubResource( 233 ), SubResource( 234 ), SubResource( 235 ), SubResource( 236 ), SubResource( 237 ), SubResource( 238 ), SubResource( 239 ), SubResource( 240 ), SubResource( 241 ), SubResource( 242 ), SubResource( 243 ), SubResource( 244 ), SubResource( 245 ), SubResource( 246 ), SubResource( 247 ), SubResource( 248 ), SubResource( 249 ), SubResource( 250 ), SubResource( 251 ), SubResource( 252 ), SubResource( 253 ), SubResource( 254 ), SubResource( 255 ), SubResource( 256 ), SubResource( 257 ), SubResource( 258 ), SubResource( 259 ), SubResource( 260 ), SubResource( 261 ), SubResource( 262 ), SubResource( 263 ), SubResource( 264 ), SubResource( 265 ), SubResource( 266 ), SubResource( 267 ), SubResource( 268 ), SubResource( 269 ), SubResource( 270 ), SubResource( 271 ), SubResource( 272 ), SubResource( 273 ), SubResource( 274 ), SubResource( 275 ), SubResource( 276 ), SubResource( 277 ), SubResource( 278 ), SubResource( 279 ), SubResource( 280 ), SubResource( 281 ), SubResource( 282 ), SubResource( 283 ), SubResource( 284 ), SubResource( 285 ), SubResource( 286 ), SubResource( 287 ), SubResource( 288 ), SubResource( 289 ), SubResource( 290 ), SubResource( 291 ), SubResource( 292 ), SubResource( 293 ), SubResource( 294 ), SubResource( 295 ), SubResource( 296 ), SubResource( 297 ), SubResource( 298 ), SubResource( 299 ), SubResource( 300 ), SubResource( 301 ), SubResource( 302 ), SubResource( 303 ), SubResource( 304 ), SubResource( 305 ), SubResource( 306 ), SubResource( 307 ), SubResource( 308 ), SubResource( 309 ), SubResource( 310 ), SubResource( 311 ), SubResource( 312 ), SubResource( 313 ), SubResource( 314 ), SubResource( 315 ), SubResource( 316 ), SubResource( 317 ), SubResource( 318 ), SubResource( 319 ), SubResource( 320 ), SubResource( 321 ), SubResource( 322 ), SubResource( 323 ), SubResource( 324 ), SubResource( 325 ), SubResource( 326 ), SubResource( 327 ), SubResource( 328 ), SubResource( 329 ), SubResource( 330 ), SubResource( 331 ), SubResource( 332 ), SubResource( 333 ), SubResource( 334 ), SubResource( 335 ), SubResource( 336 ), SubResource( 337 ), SubResource( 338 ), SubResource( 339 ), SubResource( 340 ) ],
+"loop": true,
+"name": "grr",
+"speed": 10.0
 } ]
 
 [sub_resource type="AtlasTexture" id=149]
@@ -1802,23 +2001,69 @@ animations = [ {
 "speed": 5.0
 } ]
 
+[sub_resource type="SpriteFrames" id=341]
+animations = [ {
+"frames": [ ExtResource( 111 ), ExtResource( 112 ), ExtResource( 113 ), ExtResource( 115 ), ExtResource( 114 ), ExtResource( 117 ), ExtResource( 118 ), ExtResource( 116 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 110 ), ExtResource( 85 ), ExtResource( 76 ), ExtResource( 75 ), ExtResource( 98 ), ExtResource( 82 ), ExtResource( 96 ), ExtResource( 104 ), ExtResource( 74 ), ExtResource( 86 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 87 ), ExtResource( 103 ), ExtResource( 79 ) ],
+"loop": true,
+"name": "default",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 93 ), ExtResource( 84 ), ExtResource( 95 ), ExtResource( 99 ), ExtResource( 88 ), ExtResource( 97 ), ExtResource( 83 ), ExtResource( 100 ), ExtResource( 101 ), ExtResource( 102 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 92 ), ExtResource( 89 ), ExtResource( 94 ), ExtResource( 91 ), ExtResource( 105 ), ExtResource( 90 ), ExtResource( 106 ), ExtResource( 107 ), ExtResource( 73 ), ExtResource( 72 ), ExtResource( 39 ), ExtResource( 63 ), ExtResource( 67 ) ],
+"loop": true,
+"name": "death",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 41 ), ExtResource( 46 ), ExtResource( 54 ), ExtResource( 40 ), ExtResource( 60 ), ExtResource( 64 ), ExtResource( 47 ), ExtResource( 70 ), ExtResource( 44 ), ExtResource( 56 ), ExtResource( 50 ), ExtResource( 58 ), ExtResource( 52 ), ExtResource( 48 ), ExtResource( 38 ), ExtResource( 49 ), ExtResource( 42 ), ExtResource( 65 ), ExtResource( 51 ), ExtResource( 55 ), ExtResource( 69 ), ExtResource( 66 ), ExtResource( 53 ), ExtResource( 59 ), ExtResource( 57 ) ],
+"loop": true,
+"name": "grr",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 144 ), ExtResource( 129 ), ExtResource( 146 ), ExtResource( 138 ), ExtResource( 148 ), ExtResource( 158 ), ExtResource( 123 ), ExtResource( 119 ), ExtResource( 150 ), ExtResource( 130 ), ExtResource( 120 ), ExtResource( 141 ), ExtResource( 124 ), ExtResource( 156 ), ExtResource( 125 ), ExtResource( 142 ), ExtResource( 132 ), ExtResource( 163 ), ExtResource( 143 ), ExtResource( 134 ), ExtResource( 122 ), ExtResource( 135 ), ExtResource( 145 ), ExtResource( 151 ), ExtResource( 149 ) ],
+"loop": true,
+"name": "hit",
+"speed": 20.0
+} ]
+
+[sub_resource type="SpriteFrames" id=342]
+animations = [ {
+"frames": [ ExtResource( 61 ), ExtResource( 62 ), ExtResource( 68 ), ExtResource( 45 ), ExtResource( 43 ), ExtResource( 71 ), ExtResource( 206 ), ExtResource( 205 ), ExtResource( 203 ), ExtResource( 204 ), ExtResource( 230 ), ExtResource( 224 ), ExtResource( 235 ), ExtResource( 213 ), ExtResource( 232 ), ExtResource( 236 ), ExtResource( 220 ), ExtResource( 207 ), ExtResource( 208 ), ExtResource( 210 ), ExtResource( 212 ), ExtResource( 209 ), ExtResource( 211 ), ExtResource( 214 ), ExtResource( 202 ) ],
+"loop": true,
+"name": "default",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 234 ), ExtResource( 231 ), ExtResource( 216 ), ExtResource( 215 ), ExtResource( 217 ), ExtResource( 218 ), ExtResource( 226 ), ExtResource( 219 ), ExtResource( 221 ), ExtResource( 222 ), ExtResource( 233 ), ExtResource( 227 ), ExtResource( 223 ), ExtResource( 228 ), ExtResource( 225 ), ExtResource( 229 ), ExtResource( 196 ), ExtResource( 201 ), ExtResource( 172 ), ExtResource( 194 ), ExtResource( 173 ), ExtResource( 178 ), ExtResource( 182 ), ExtResource( 168 ) ],
+"loop": true,
+"name": "death",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 179 ), ExtResource( 197 ), ExtResource( 169 ), ExtResource( 199 ), ExtResource( 200 ), ExtResource( 193 ), ExtResource( 167 ), ExtResource( 195 ), ExtResource( 174 ), ExtResource( 183 ), ExtResource( 191 ), ExtResource( 198 ), ExtResource( 180 ), ExtResource( 189 ), ExtResource( 181 ), ExtResource( 192 ), ExtResource( 184 ), ExtResource( 171 ), ExtResource( 170 ), ExtResource( 175 ), ExtResource( 176 ), ExtResource( 185 ), ExtResource( 177 ), ExtResource( 186 ), ExtResource( 187 ) ],
+"loop": true,
+"name": "grr",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 188 ), ExtResource( 190 ), ExtResource( 154 ), ExtResource( 157 ), ExtResource( 121 ), ExtResource( 165 ), ExtResource( 152 ), ExtResource( 147 ), ExtResource( 136 ), ExtResource( 159 ), ExtResource( 126 ), ExtResource( 160 ), ExtResource( 137 ), ExtResource( 131 ), ExtResource( 128 ), ExtResource( 153 ), ExtResource( 164 ), ExtResource( 133 ), ExtResource( 161 ), ExtResource( 127 ), ExtResource( 140 ), ExtResource( 162 ), ExtResource( 139 ), ExtResource( 155 ), ExtResource( 166 ) ],
+"loop": true,
+"name": "hit",
+"speed": 20.0
+} ]
+
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 36 )
 
 [node name="Boss_Frog" type="AnimatedSprite" parent="."]
-position = Vector2( 936, 151 )
+position = Vector2( 874, 161 )
 frames = SubResource( 85 )
 animation = "walkBite"
-frame = 10
+frame = 2
 speed_scale = 4.0
 playing = true
 
 [node name="Boss_Flea" type="AnimatedSprite" parent="."]
-position = Vector2( 851, 462 )
+position = Vector2( 837, 432 )
 scale = Vector2( 1.26058, 1.26058 )
 frames = SubResource( 148 )
 animation = "grr"
-frame = 90
+frame = 57
 speed_scale = 4.0
 playing = true
 
@@ -1827,7 +2072,7 @@ position = Vector2( 544, 129 )
 scale = Vector2( 7.3125, 7.3125 )
 frames = SubResource( 161 )
 animation = "walk"
-frame = 8
+frame = 2
 speed_scale = 1.5
 playing = true
 
@@ -1837,7 +2082,7 @@ stream = ExtResource( 35 )
 [node name="Effect_Lightning" type="AnimatedSprite" parent="."]
 position = Vector2( 272, 859 )
 frames = SubResource( 21 )
-frame = 13
+frame = 16
 playing = true
 flip_v = true
 
@@ -1845,7 +2090,6 @@ flip_v = true
 position = Vector2( 648, 839 )
 scale = Vector2( 7, 7 )
 frames = SubResource( 186 )
-frame = 19
 speed_scale = 5.0
 playing = true
 
@@ -1853,7 +2097,7 @@ playing = true
 position = Vector2( 199, 261 )
 scale = Vector2( 19.0312, 19.0312 )
 frames = SubResource( 11 )
-frame = 3
+frame = 1
 playing = true
 
 [node name="Tower_CatLauncher" type="AnimatedSprite" parent="."]
@@ -1861,6 +2105,7 @@ position = Vector2( 237, 357 )
 scale = Vector2( 15.4219, 15.4219 )
 frames = SubResource( 20 )
 animation = "Launch"
+frame = 3
 playing = true
 flip_h = true
 
@@ -1868,6 +2113,17 @@ flip_h = true
 position = Vector2( 1061, 661 )
 frames = SubResource( 200 )
 animation = "beam"
-frame = 5
+frame = 11
 speed_scale = 3.0
+playing = true
+
+[node name="Eye_Boi_1" type="AnimatedSprite" parent="."]
+position = Vector2( 1236, 246 )
+frames = SubResource( 341 )
+frame = 12
+playing = true
+
+[node name="Eye_Boi_2" type="AnimatedSprite" parent="."]
+position = Vector2( 1540, 214 )
+frames = SubResource( 342 )
 playing = true

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/spaceship earth_mp3.mp3-59ead3e6f0fb7447dbab0b96754df31a.mp3str"
+
+[deps]
+
+source_file="res://Meow/Music/Reg/spaceship earth_mp3.mp3"
+dest_files=[ "res://.import/spaceship earth_mp3.mp3-59ead3e6f0fb7447dbab0b96754df31a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

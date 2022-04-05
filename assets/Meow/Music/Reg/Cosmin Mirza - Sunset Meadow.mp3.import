@@ -11,5 +11,5 @@ dest_files=[ "res://.import/Cosmin Mirza - Sunset Meadow.mp3-f022a455918245b31dc
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

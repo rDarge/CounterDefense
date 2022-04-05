@@ -11,5 +11,5 @@ dest_files=[ "res://.import/Memoraphile - I Wish You Would.mp3-ba5479120be05e51f
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

@@ -11,5 +11,5 @@ dest_files=[ "res://.import/Cosmin Mirza - For the Swarm.mp3-b9e0b67ea40c2550d04
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0
