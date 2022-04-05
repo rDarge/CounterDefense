@@ -11,5 +11,5 @@ dest_files=[ "res://.import/Cosmin Mirza - Borealis.mp3-0ed2f4b9aca5340a3881b268
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

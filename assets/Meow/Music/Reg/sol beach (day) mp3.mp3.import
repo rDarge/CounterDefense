@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/sol beach (day) mp3.mp3-53798ad50dd8e0aeba6540461c966a91.mp3str"
+
+[deps]
+
+source_file="res://Meow/Music/Reg/sol beach (day) mp3.mp3"
+dest_files=[ "res://.import/sol beach (day) mp3.mp3-53798ad50dd8e0aeba6540461c966a91.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

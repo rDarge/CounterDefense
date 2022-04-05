@@ -11,5 +11,5 @@ dest_files=[ "res://.import/Memoraphile - So Many Spiders.mp3-b8af72db9bbab3ee9d
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

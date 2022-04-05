@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/rain on mars_mp3.mp3-e1bbd9e7932a25f601efcb819bcd600d.mp3str"
+
+[deps]
+
+source_file="res://Meow/Music/Reg/rain on mars_mp3.mp3"
+dest_files=[ "res://.import/rain on mars_mp3.mp3-e1bbd9e7932a25f601efcb819bcd600d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

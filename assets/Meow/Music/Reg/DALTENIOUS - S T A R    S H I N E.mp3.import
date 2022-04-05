@@ -11,5 +11,5 @@ dest_files=[ "res://.import/DALTENIOUS - S T A R    S H I N E.mp3-9e5ce8450792b6
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0
