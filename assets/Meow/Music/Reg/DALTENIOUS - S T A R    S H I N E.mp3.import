@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/DALTENIOUS - S T A R    S H I N E.mp3-9e5ce8450792b6dcee05a877f358abc4.mp3str"
+
+[deps]
+
+source_file="res://Meow/Music/Reg/DALTENIOUS - S T A R    S H I N E.mp3"
+dest_files=[ "res://.import/DALTENIOUS - S T A R    S H I N E.mp3-9e5ce8450792b6dcee05a877f358abc4.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

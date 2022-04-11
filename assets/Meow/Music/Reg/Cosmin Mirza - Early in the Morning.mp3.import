@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Cosmin Mirza - Early in the Morning.mp3-ee40246c40cccad5deb85110aed4d564.mp3str"
+
+[deps]
+
+source_file="res://Meow/Music/Reg/Cosmin Mirza - Early in the Morning.mp3"
+dest_files=[ "res://.import/Cosmin Mirza - Early in the Morning.mp3-ee40246c40cccad5deb85110aed4d564.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

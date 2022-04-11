@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/lunar lounging_mp3.mp3-1242fdb5faa62401b67758a713e763ad.mp3str"
+
+[deps]
+
+source_file="res://Meow/Music/Reg/lunar lounging_mp3.mp3"
+dest_files=[ "res://.import/lunar lounging_mp3.mp3-1242fdb5faa62401b67758a713e763ad.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

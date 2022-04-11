@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Cosmin Mirza - Seine.mp3-a0abc7e8b7ef883c420f85344c693c62.mp3str"
+
+[deps]
+
+source_file="res://Meow/Music/Reg/Cosmin Mirza - Seine.mp3"
+dest_files=[ "res://.import/Cosmin Mirza - Seine.mp3-a0abc7e8b7ef883c420f85344c693c62.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

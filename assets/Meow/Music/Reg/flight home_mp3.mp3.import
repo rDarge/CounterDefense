@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/flight home_mp3.mp3-c3a677a574ea633826a65288197d9220.mp3str"
+
+[deps]
+
+source_file="res://Meow/Music/Reg/flight home_mp3.mp3"
+dest_files=[ "res://.import/flight home_mp3.mp3-c3a677a574ea633826a65288197d9220.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

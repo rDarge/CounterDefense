@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Cosmin Mirza - Bygone.mp3-631409976de6a6d00609117376208546.mp3str"
+
+[deps]
+
+source_file="res://Meow/Music/Reg/Cosmin Mirza - Bygone.mp3"
+dest_files=[ "res://.import/Cosmin Mirza - Bygone.mp3-631409976de6a6d00609117376208546.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

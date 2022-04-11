@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Cosmin Mirza - Philosopher's Demise.mp3-49840500d188260e8d5fb9ea1ded3ca2.mp3str"
+
+[deps]
+
+source_file="res://Meow/Music/Reg/Cosmin Mirza - Philosopher's Demise.mp3"
+dest_files=[ "res://.import/Cosmin Mirza - Philosopher's Demise.mp3-49840500d188260e8d5fb9ea1ded3ca2.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/paradise wasteland_mp3.mp3-4795ce7c9c38a7ac766880278497d394.mp3str"
+
+[deps]
+
+source_file="res://Meow/Music/Reg/paradise wasteland_mp3.mp3"
+dest_files=[ "res://.import/paradise wasteland_mp3.mp3-4795ce7c9c38a7ac766880278497d394.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

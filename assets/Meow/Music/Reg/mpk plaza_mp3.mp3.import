@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mpk plaza_mp3.mp3-165fedc93eb3bead812fb5a55cda2dbb.mp3str"
+
+[deps]
+
+source_file="res://Meow/Music/Reg/mpk plaza_mp3.mp3"
+dest_files=[ "res://.import/mpk plaza_mp3.mp3-165fedc93eb3bead812fb5a55cda2dbb.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

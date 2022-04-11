@@ -1,0 +1,2202 @@
+[gd_scene load_steps=628 format=2]
+
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_09.png" type="Texture" id=1]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_16.png" type="Texture" id=2]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_14.png" type="Texture" id=3]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_17.png" type="Texture" id=4]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_18.png" type="Texture" id=5]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_20.png" type="Texture" id=6]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_15.png" type="Texture" id=7]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_08.png" type="Texture" id=8]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_10.png" type="Texture" id=9]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_19.png" type="Texture" id=10]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_13.png" type="Texture" id=11]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_07.png" type="Texture" id=12]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_11.png" type="Texture" id=13]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_12.png" type="Texture" id=14]
+[ext_resource path="res://Meow/Towers/Cat Launcher/Cat Sprite Sheet.png" type="Texture" id=15]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_05.png" type="Texture" id=16]
+[ext_resource path="res://Meow/Mobs/Waves/Bat/Bat_Sprite_Sheet.png" type="Texture" id=17]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_01.png" type="Texture" id=18]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_02.png" type="Texture" id=19]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_04.png" type="Texture" id=20]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_03.png" type="Texture" id=21]
+[ext_resource path="res://Meow/Towers/Effects/Lightning/Lightening_06.png" type="Texture" id=22]
+[ext_resource path="res://Meow/Mobs/Boss/Soul Hunter/run.png" type="Texture" id=23]
+[ext_resource path="res://Meow/Mobs/Boss/Laser Flea/walk_look up.png" type="Texture" id=24]
+[ext_resource path="res://Meow/Mobs/Boss/Laser Flea/death.png" type="Texture" id=25]
+[ext_resource path="res://Meow/Towers/Effects/Laser/laser.png" type="Texture" id=26]
+[ext_resource path="res://Meow/Towers/Effects/Acid/poison-spit.png" type="Texture" id=27]
+[ext_resource path="res://Meow/Mobs/Boss/Froggo/death.png" type="Texture" id=28]
+[ext_resource path="res://Meow/Mobs/Boss/Laser Flea/walk.png" type="Texture" id=29]
+[ext_resource path="res://Meow/Mobs/Boss/Froggo/jump-cycle.png" type="Texture" id=30]
+[ext_resource path="res://Meow/Mobs/Boss/Froggo/jump-cycle-bite-attack.png" type="Texture" id=31]
+[ext_resource path="res://Meow/Towers/Effects/Acid/poison-impact.png" type="Texture" id=32]
+[ext_resource path="res://Meow/Mobs/Boss/Soul Hunter/attack.png" type="Texture" id=33]
+[ext_resource path="res://Meow/Mobs/Boss/Froggo/bite-attack.png" type="Texture" id=34]
+[ext_resource path="res://Meow/DynamicAudio.gd" type="Script" id=36]
+[ext_resource path="res://Meow/Mobs/Boss/Laser Flea/lasser_swept.png" type="Texture" id=37]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_14.png" type="Texture" id=38]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_22.png" type="Texture" id=39]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_03.png" type="Texture" id=40]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_00.png" type="Texture" id=41]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_16.png" type="Texture" id=42]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_04.png" type="Texture" id=43]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_08.png" type="Texture" id=44]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_03.png" type="Texture" id=45]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_01.png" type="Texture" id=46]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_06.png" type="Texture" id=47]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_13.png" type="Texture" id=48]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_15.png" type="Texture" id=49]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_10.png" type="Texture" id=50]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_18.png" type="Texture" id=51]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_12.png" type="Texture" id=52]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_22.png" type="Texture" id=53]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_02.png" type="Texture" id=54]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_19.png" type="Texture" id=55]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_09.png" type="Texture" id=56]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_24.png" type="Texture" id=57]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_11.png" type="Texture" id=58]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_23.png" type="Texture" id=59]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_04.png" type="Texture" id=60]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_00.png" type="Texture" id=61]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_01.png" type="Texture" id=62]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_23.png" type="Texture" id=63]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_05.png" type="Texture" id=64]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_17.png" type="Texture" id=65]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_21.png" type="Texture" id=66]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_24.png" type="Texture" id=67]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_02.png" type="Texture" id=68]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_20.png" type="Texture" id=69]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Attack/Version1_Attack1_07.png" type="Texture" id=70]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_05.png" type="Texture" id=71]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_21.png" type="Texture" id=72]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_20.png" type="Texture" id=73]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_18.png" type="Texture" id=74]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_13.png" type="Texture" id=75]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_12.png" type="Texture" id=76]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_20.png" type="Texture" id=77]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_21.png" type="Texture" id=78]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_24.png" type="Texture" id=79]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_10.png" type="Texture" id=80]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_11.png" type="Texture" id=81]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_15.png" type="Texture" id=82]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_06.png" type="Texture" id=83]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_01.png" type="Texture" id=84]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_11.png" type="Texture" id=85]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_19.png" type="Texture" id=86]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_22.png" type="Texture" id=87]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_04.png" type="Texture" id=88]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_13.png" type="Texture" id=89]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_17.png" type="Texture" id=90]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_15.png" type="Texture" id=91]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_12.png" type="Texture" id=92]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_00.png" type="Texture" id=93]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_14.png" type="Texture" id=94]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_02.png" type="Texture" id=95]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_16.png" type="Texture" id=96]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_05.png" type="Texture" id=97]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_14.png" type="Texture" id=98]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_03.png" type="Texture" id=99]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_07.png" type="Texture" id=100]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_08.png" type="Texture" id=101]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_09.png" type="Texture" id=102]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_23.png" type="Texture" id=103]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_17.png" type="Texture" id=104]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_16.png" type="Texture" id=105]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_18.png" type="Texture" id=106]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Death2/Version1_Death2_19.png" type="Texture" id=107]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_08.png" type="Texture" id=108]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_09.png" type="Texture" id=109]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_10.png" type="Texture" id=110]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_00.png" type="Texture" id=111]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_01.png" type="Texture" id=112]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_02.png" type="Texture" id=113]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_04.png" type="Texture" id=114]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_03.png" type="Texture" id=115]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_07.png" type="Texture" id=116]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_05.png" type="Texture" id=117]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Walk/Version1_Walk_06.png" type="Texture" id=118]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_07.png" type="Texture" id=119]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_10.png" type="Texture" id=120]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_04.png" type="Texture" id=121]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_20.png" type="Texture" id=122]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_06.png" type="Texture" id=123]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_12.png" type="Texture" id=124]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_14.png" type="Texture" id=125]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_10.png" type="Texture" id=126]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_19.png" type="Texture" id=127]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_14.png" type="Texture" id=128]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_01.png" type="Texture" id=129]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_09.png" type="Texture" id=130]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_13.png" type="Texture" id=131]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_16.png" type="Texture" id=132]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_17.png" type="Texture" id=133]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_19.png" type="Texture" id=134]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_21.png" type="Texture" id=135]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_08.png" type="Texture" id=136]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_12.png" type="Texture" id=137]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_03.png" type="Texture" id=138]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_22.png" type="Texture" id=139]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_20.png" type="Texture" id=140]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_11.png" type="Texture" id=141]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_15.png" type="Texture" id=142]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_18.png" type="Texture" id=143]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_00.png" type="Texture" id=144]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_22.png" type="Texture" id=145]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_02.png" type="Texture" id=146]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_07.png" type="Texture" id=147]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_04.png" type="Texture" id=148]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_24.png" type="Texture" id=149]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_08.png" type="Texture" id=150]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_23.png" type="Texture" id=151]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_06.png" type="Texture" id=152]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_15.png" type="Texture" id=153]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_02.png" type="Texture" id=154]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_23.png" type="Texture" id=155]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_13.png" type="Texture" id=156]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_03.png" type="Texture" id=157]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_05.png" type="Texture" id=158]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_09.png" type="Texture" id=159]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_11.png" type="Texture" id=160]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_18.png" type="Texture" id=161]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_21.png" type="Texture" id=162]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Hit/Version1_Hit_17.png" type="Texture" id=163]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_16.png" type="Texture" id=164]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_05.png" type="Texture" id=165]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_24.png" type="Texture" id=166]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_06.png" type="Texture" id=167]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_23.png" type="Texture" id=168]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_02.png" type="Texture" id=169]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_18.png" type="Texture" id=170]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_17.png" type="Texture" id=171]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_18.png" type="Texture" id=172]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_20.png" type="Texture" id=173]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_08.png" type="Texture" id=174]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_19.png" type="Texture" id=175]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_20.png" type="Texture" id=176]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_22.png" type="Texture" id=177]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_21.png" type="Texture" id=178]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_00.png" type="Texture" id=179]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_12.png" type="Texture" id=180]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_14.png" type="Texture" id=181]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_22.png" type="Texture" id=182]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_09.png" type="Texture" id=183]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_16.png" type="Texture" id=184]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_21.png" type="Texture" id=185]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_23.png" type="Texture" id=186]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_24.png" type="Texture" id=187]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_00.png" type="Texture" id=188]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_13.png" type="Texture" id=189]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Hit/Version1_Hit_01.png" type="Texture" id=190]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_10.png" type="Texture" id=191]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_15.png" type="Texture" id=192]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_05.png" type="Texture" id=193]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_19.png" type="Texture" id=194]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_07.png" type="Texture" id=195]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_16.png" type="Texture" id=196]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_01.png" type="Texture" id=197]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_11.png" type="Texture" id=198]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_03.png" type="Texture" id=199]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Attack2/Version1_Attack2_04.png" type="Texture" id=200]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_17.png" type="Texture" id=201]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_24.png" type="Texture" id=202]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_08.png" type="Texture" id=203]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_09.png" type="Texture" id=204]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_07.png" type="Texture" id=205]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_06.png" type="Texture" id=206]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_17.png" type="Texture" id=207]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_18.png" type="Texture" id=208]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_21.png" type="Texture" id=209]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_19.png" type="Texture" id=210]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_22.png" type="Texture" id=211]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_20.png" type="Texture" id=212]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_13.png" type="Texture" id=213]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_23.png" type="Texture" id=214]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_03.png" type="Texture" id=215]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_02.png" type="Texture" id=216]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_04.png" type="Texture" id=217]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_05.png" type="Texture" id=218]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_07.png" type="Texture" id=219]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_16.png" type="Texture" id=220]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_08.png" type="Texture" id=221]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_09.png" type="Texture" id=222]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_12.png" type="Texture" id=223]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_11.png" type="Texture" id=224]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_14.png" type="Texture" id=225]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_06.png" type="Texture" id=226]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_11.png" type="Texture" id=227]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_13.png" type="Texture" id=228]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_15.png" type="Texture" id=229]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_10.png" type="Texture" id=230]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_01.png" type="Texture" id=231]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_14.png" type="Texture" id=232]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_10.png" type="Texture" id=233]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Death2/Version1_Death2_00.png" type="Texture" id=234]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_12.png" type="Texture" id=235]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Walk/Version1_Walk_15.png" type="Texture" id=236]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_07.png" type="Texture" id=237]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_16.png" type="Texture" id=238]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_17.png" type="Texture" id=239]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_22.png" type="Texture" id=240]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_02.png" type="Texture" id=241]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_13.png" type="Texture" id=242]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_12.png" type="Texture" id=243]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_08.png" type="Texture" id=244]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_20.png" type="Texture" id=245]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_22.png" type="Texture" id=246]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_16.png" type="Texture" id=247]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_00.png" type="Texture" id=248]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_05.png" type="Texture" id=249]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_19.png" type="Texture" id=250]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_05.png" type="Texture" id=251]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_11.png" type="Texture" id=252]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_23.png" type="Texture" id=253]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_13.png" type="Texture" id=254]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_01.png" type="Texture" id=255]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_02.png" type="Texture" id=256]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_21.png" type="Texture" id=257]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_20.png" type="Texture" id=258]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_12.png" type="Texture" id=259]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_19.png" type="Texture" id=260]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_18.png" type="Texture" id=261]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_21.png" type="Texture" id=262]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_24.png" type="Texture" id=263]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_09.png" type="Texture" id=264]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_09.png" type="Texture" id=265]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_23.png" type="Texture" id=266]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_14.png" type="Texture" id=267]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_17.png" type="Texture" id=268]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_04.png" type="Texture" id=269]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_03.png" type="Texture" id=270]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_00.png" type="Texture" id=271]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_01.png" type="Texture" id=272]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_03.png" type="Texture" id=273]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_04.png" type="Texture" id=274]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_06.png" type="Texture" id=275]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_15.png" type="Texture" id=276]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_07.png" type="Texture" id=277]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_24.png" type="Texture" id=278]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_06.png" type="Texture" id=279]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_10.png" type="Texture" id=280]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_11.png" type="Texture" id=281]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_18.png" type="Texture" id=282]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_14.png" type="Texture" id=283]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_15.png" type="Texture" id=284]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 1/Idle/Version1_Idle_10.png" type="Texture" id=285]
+[ext_resource path="res://Meow/Mobs/Waves/Eye Boi 2/Idle/Version1_Idle_08.png" type="Texture" id=286]
+
+[sub_resource type="AtlasTexture" id=86]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 0, 0, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=87]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 212, 0, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=88]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 424, 0, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=89]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 636, 0, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=90]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 848, 0, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=91]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 0, 189, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=92]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 212, 189, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=93]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 424, 189, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=94]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 636, 189, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=95]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 848, 189, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=96]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 0, 378, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=97]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 212, 378, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=98]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 424, 378, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=99]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 636, 378, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=100]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 848, 378, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=101]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 0, 567, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=102]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 212, 567, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=103]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 424, 567, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=104]
+flags = 4
+atlas = ExtResource( 29 )
+region = Rect2( 636, 567, 212, 189 )
+
+[sub_resource type="AtlasTexture" id=124]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 0, 0, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=125]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 297, 0, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=126]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 594, 0, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=127]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 891, 0, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=128]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 1188, 0, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=129]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 1485, 0, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=130]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 0, 219, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=131]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 297, 219, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=132]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 594, 219, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=133]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 891, 219, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=134]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 1188, 219, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=135]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 1485, 219, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=136]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 0, 438, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=137]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 297, 438, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=138]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 594, 438, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=139]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 891, 438, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=140]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 1188, 438, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=141]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 1485, 438, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=142]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 0, 657, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=143]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 297, 657, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=144]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 594, 657, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=145]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 891, 657, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=146]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 1188, 657, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=147]
+flags = 4
+atlas = ExtResource( 25 )
+region = Rect2( 1485, 657, 297, 219 )
+
+[sub_resource type="AtlasTexture" id=105]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 0, 0, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=106]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 212, 0, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=107]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 424, 0, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=108]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 636, 0, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=109]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 848, 0, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=110]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 0, 209, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=111]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 212, 209, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=112]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 424, 209, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=113]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 636, 209, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=114]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 848, 209, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=115]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 0, 418, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=116]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 212, 418, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=117]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 424, 418, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=118]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 636, 418, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=119]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 848, 418, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=120]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 0, 627, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=121]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 212, 627, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=122]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 424, 627, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=123]
+flags = 4
+atlas = ExtResource( 24 )
+region = Rect2( 636, 627, 212, 209 )
+
+[sub_resource type="AtlasTexture" id=220]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 0, 0, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=221]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 221, 0, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=222]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 442, 0, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=223]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 663, 0, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=224]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 884, 0, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=225]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1105, 0, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=226]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1326, 0, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=227]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1547, 0, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=228]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1768, 0, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=229]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1989, 0, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=230]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 2210, 0, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=231]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 0, 224, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=232]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 221, 224, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=233]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 442, 224, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=234]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 663, 224, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=235]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 884, 224, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=236]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1105, 224, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=237]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1326, 224, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=238]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1547, 224, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=239]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1768, 224, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=240]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1989, 224, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=241]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 2210, 224, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=242]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 0, 448, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=243]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 221, 448, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=244]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 442, 448, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=245]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 663, 448, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=246]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 884, 448, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=247]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1105, 448, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=248]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1326, 448, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=249]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1547, 448, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=250]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1768, 448, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=251]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1989, 448, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=252]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 2210, 448, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=253]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 0, 672, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=254]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 221, 672, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=255]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 442, 672, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=256]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 663, 672, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=257]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 884, 672, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=258]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1105, 672, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=259]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1326, 672, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=260]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1547, 672, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=261]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1768, 672, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=262]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1989, 672, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=263]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 2210, 672, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=264]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 0, 896, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=265]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 221, 896, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=266]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 442, 896, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=267]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 663, 896, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=268]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 884, 896, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=269]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1105, 896, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=270]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1326, 896, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=271]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1547, 896, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=272]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1768, 896, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=273]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1989, 896, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=274]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 2210, 896, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=275]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 0, 1120, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=276]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 221, 1120, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=277]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 442, 1120, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=278]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 663, 1120, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=279]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 884, 1120, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=280]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1105, 1120, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=281]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1326, 1120, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=282]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1547, 1120, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=283]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1768, 1120, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=284]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1989, 1120, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=285]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 2210, 1120, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=286]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 0, 1344, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=287]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 221, 1344, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=288]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 442, 1344, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=289]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 663, 1344, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=290]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 884, 1344, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=291]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1105, 1344, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=292]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1326, 1344, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=293]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1547, 1344, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=294]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1768, 1344, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=295]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1989, 1344, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=296]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 2210, 1344, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=297]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 0, 1568, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=298]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 221, 1568, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=299]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 442, 1568, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=300]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 663, 1568, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=301]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 884, 1568, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=302]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1105, 1568, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=303]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1326, 1568, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=304]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1547, 1568, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=305]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1768, 1568, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=306]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1989, 1568, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=307]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 2210, 1568, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=308]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 0, 1792, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=309]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 221, 1792, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=310]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 442, 1792, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=311]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 663, 1792, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=312]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 884, 1792, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=313]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1105, 1792, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=314]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1326, 1792, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=315]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1547, 1792, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=316]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1768, 1792, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=317]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1989, 1792, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=318]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 2210, 1792, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=319]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 0, 2016, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=320]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 221, 2016, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=321]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 442, 2016, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=322]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 663, 2016, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=323]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 884, 2016, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=324]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1105, 2016, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=325]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1326, 2016, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=326]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1547, 2016, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=327]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1768, 2016, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=328]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1989, 2016, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=329]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 2210, 2016, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=330]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 0, 2240, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=331]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 221, 2240, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=332]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 442, 2240, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=333]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 663, 2240, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=334]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 884, 2240, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=335]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1105, 2240, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=336]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1326, 2240, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=337]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1547, 2240, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=338]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1768, 2240, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=339]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 1989, 2240, 221, 224 )
+
+[sub_resource type="AtlasTexture" id=340]
+flags = 4
+atlas = ExtResource( 37 )
+region = Rect2( 2210, 2240, 221, 224 )
+
+[sub_resource type="SpriteFrames" id=148]
+animations = [ {
+"frames": [ SubResource( 86 ), SubResource( 87 ), SubResource( 88 ), SubResource( 89 ), SubResource( 90 ), SubResource( 91 ), SubResource( 92 ), SubResource( 93 ), SubResource( 94 ), SubResource( 95 ), SubResource( 96 ), SubResource( 97 ), SubResource( 98 ), SubResource( 99 ), SubResource( 100 ), SubResource( 101 ), SubResource( 102 ), SubResource( 103 ), SubResource( 104 ) ],
+"loop": true,
+"name": "walk",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 124 ), SubResource( 125 ), SubResource( 126 ), SubResource( 127 ), SubResource( 128 ), SubResource( 129 ), SubResource( 130 ), SubResource( 131 ), SubResource( 132 ), SubResource( 133 ), SubResource( 134 ), SubResource( 135 ), SubResource( 136 ), SubResource( 137 ), SubResource( 138 ), SubResource( 139 ), SubResource( 140 ), SubResource( 141 ), SubResource( 142 ), SubResource( 143 ), SubResource( 144 ), SubResource( 145 ), SubResource( 146 ), SubResource( 147 ) ],
+"loop": true,
+"name": "death",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 105 ), SubResource( 106 ), SubResource( 107 ), SubResource( 108 ), SubResource( 109 ), SubResource( 110 ), SubResource( 111 ), SubResource( 112 ), SubResource( 113 ), SubResource( 114 ), SubResource( 115 ), SubResource( 116 ), SubResource( 117 ), SubResource( 118 ), SubResource( 119 ), SubResource( 120 ), SubResource( 121 ), SubResource( 122 ), SubResource( 123 ) ],
+"loop": true,
+"name": "walk up",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 220 ), SubResource( 221 ), SubResource( 222 ), SubResource( 223 ), SubResource( 224 ), SubResource( 225 ), SubResource( 226 ), SubResource( 227 ), SubResource( 228 ), SubResource( 229 ), SubResource( 230 ), SubResource( 231 ), SubResource( 232 ), SubResource( 233 ), SubResource( 234 ), SubResource( 235 ), SubResource( 236 ), SubResource( 237 ), SubResource( 238 ), SubResource( 239 ), SubResource( 240 ), SubResource( 241 ), SubResource( 242 ), SubResource( 243 ), SubResource( 244 ), SubResource( 245 ), SubResource( 246 ), SubResource( 247 ), SubResource( 248 ), SubResource( 249 ), SubResource( 250 ), SubResource( 251 ), SubResource( 252 ), SubResource( 253 ), SubResource( 254 ), SubResource( 255 ), SubResource( 256 ), SubResource( 257 ), SubResource( 258 ), SubResource( 259 ), SubResource( 260 ), SubResource( 261 ), SubResource( 262 ), SubResource( 263 ), SubResource( 264 ), SubResource( 265 ), SubResource( 266 ), SubResource( 267 ), SubResource( 268 ), SubResource( 269 ), SubResource( 270 ), SubResource( 271 ), SubResource( 272 ), SubResource( 273 ), SubResource( 274 ), SubResource( 275 ), SubResource( 276 ), SubResource( 277 ), SubResource( 278 ), SubResource( 279 ), SubResource( 280 ), SubResource( 281 ), SubResource( 282 ), SubResource( 283 ), SubResource( 284 ), SubResource( 285 ), SubResource( 286 ), SubResource( 287 ), SubResource( 288 ), SubResource( 289 ), SubResource( 290 ), SubResource( 291 ), SubResource( 292 ), SubResource( 293 ), SubResource( 294 ), SubResource( 295 ), SubResource( 296 ), SubResource( 297 ), SubResource( 298 ), SubResource( 299 ), SubResource( 300 ), SubResource( 301 ), SubResource( 302 ), SubResource( 303 ), SubResource( 304 ), SubResource( 305 ), SubResource( 306 ), SubResource( 307 ), SubResource( 308 ), SubResource( 309 ), SubResource( 310 ), SubResource( 311 ), SubResource( 312 ), SubResource( 313 ), SubResource( 314 ), SubResource( 315 ), SubResource( 316 ), SubResource( 317 ), SubResource( 318 ), SubResource( 319 ), SubResource( 320 ), SubResource( 321 ), SubResource( 322 ), SubResource( 323 ), SubResource( 324 ), SubResource( 325 ), SubResource( 326 ), SubResource( 327 ), SubResource( 328 ), SubResource( 329 ), SubResource( 330 ), SubResource( 331 ), SubResource( 332 ), SubResource( 333 ), SubResource( 334 ), SubResource( 335 ), SubResource( 336 ), SubResource( 337 ), SubResource( 338 ), SubResource( 339 ), SubResource( 340 ) ],
+"loop": true,
+"name": "grr",
+"speed": 10.0
+} ]
+
+[sub_resource type="AtlasTexture" id=44]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 0, 0, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=45]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 304, 0, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=46]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 608, 0, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=47]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 912, 0, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=48]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 1216, 0, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=49]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 1520, 0, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=50]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 0, 246, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=51]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 304, 246, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=52]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 608, 246, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=53]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 912, 246, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=54]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 1216, 246, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=55]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 1520, 246, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=56]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 0, 492, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=57]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 304, 492, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=58]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 608, 492, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=59]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 912, 492, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=60]
+flags = 4
+atlas = ExtResource( 31 )
+region = Rect2( 1216, 492, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=27]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 0, 0, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=28]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 304, 0, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=29]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 608, 0, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=30]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 912, 0, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=31]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 1216, 0, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=32]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 1520, 0, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=33]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 0, 246, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=34]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 304, 246, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=35]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 608, 246, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=36]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 912, 246, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=37]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 1216, 246, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=38]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 1520, 246, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=39]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 0, 492, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=40]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 304, 492, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=41]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 608, 492, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=42]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 912, 492, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=43]
+flags = 4
+atlas = ExtResource( 30 )
+region = Rect2( 1216, 492, 304, 246 )
+
+[sub_resource type="AtlasTexture" id=61]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 0, 0, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=62]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 209, 0, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=63]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 418, 0, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=64]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 627, 0, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=65]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 836, 0, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=66]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 1045, 0, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=67]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 0, 208, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=68]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 209, 208, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=69]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 418, 208, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=70]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 627, 208, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=71]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 836, 208, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=72]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 1045, 208, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=73]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 0, 416, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=74]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 209, 416, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=75]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 418, 416, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=76]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 627, 416, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=77]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 836, 416, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=78]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 1045, 416, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=79]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 0, 624, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=80]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 209, 624, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=81]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 418, 624, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=82]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 627, 624, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=83]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 836, 624, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=84]
+flags = 4
+atlas = ExtResource( 28 )
+region = Rect2( 1045, 624, 209, 208 )
+
+[sub_resource type="AtlasTexture" id=201]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 0, 0, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=202]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 232, 0, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=203]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 464, 0, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=204]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 696, 0, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=205]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 928, 0, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=206]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 0, 166, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=207]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 232, 166, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=208]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 464, 166, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=209]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 696, 166, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=210]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 928, 166, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=211]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 0, 332, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=212]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 232, 332, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=213]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 464, 332, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=214]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 696, 332, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=215]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 928, 332, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=216]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 0, 498, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=217]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 232, 498, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=218]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 464, 498, 232, 166 )
+
+[sub_resource type="AtlasTexture" id=219]
+flags = 4
+atlas = ExtResource( 34 )
+region = Rect2( 696, 498, 232, 166 )
+
+[sub_resource type="SpriteFrames" id=85]
+animations = [ {
+"frames": [ SubResource( 44 ), SubResource( 45 ), SubResource( 46 ), SubResource( 47 ), SubResource( 48 ), SubResource( 49 ), SubResource( 50 ), SubResource( 51 ), SubResource( 52 ), SubResource( 53 ), SubResource( 54 ), SubResource( 55 ), SubResource( 56 ), SubResource( 57 ), SubResource( 58 ), SubResource( 59 ), SubResource( 60 ) ],
+"loop": true,
+"name": "walkBite",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 27 ), SubResource( 28 ), SubResource( 29 ), SubResource( 30 ), SubResource( 31 ), SubResource( 32 ), SubResource( 33 ), SubResource( 34 ), SubResource( 35 ), SubResource( 36 ), SubResource( 37 ), SubResource( 38 ), SubResource( 39 ), SubResource( 40 ), SubResource( 41 ), SubResource( 42 ), SubResource( 43 ) ],
+"loop": true,
+"name": "walk",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 61 ), SubResource( 62 ), SubResource( 63 ), SubResource( 64 ), SubResource( 65 ), SubResource( 66 ), SubResource( 67 ), SubResource( 68 ), SubResource( 69 ), SubResource( 70 ), SubResource( 71 ), SubResource( 72 ), SubResource( 73 ), SubResource( 74 ), SubResource( 75 ), SubResource( 76 ), SubResource( 77 ), SubResource( 78 ), SubResource( 79 ), SubResource( 80 ), SubResource( 81 ), SubResource( 82 ), SubResource( 83 ), SubResource( 84 ) ],
+"loop": true,
+"name": "death",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 201 ), SubResource( 202 ), SubResource( 203 ), SubResource( 204 ), SubResource( 205 ), SubResource( 206 ), SubResource( 207 ), SubResource( 208 ), SubResource( 209 ), SubResource( 210 ), SubResource( 211 ), SubResource( 212 ), SubResource( 213 ), SubResource( 214 ), SubResource( 215 ), SubResource( 216 ), SubResource( 217 ), SubResource( 218 ), SubResource( 219 ) ],
+"loop": true,
+"name": "grr",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=149]
+flags = 4
+atlas = ExtResource( 23 )
+region = Rect2( 0, 0, 48, 48 )
+
+[sub_resource type="AtlasTexture" id=150]
+flags = 4
+atlas = ExtResource( 23 )
+region = Rect2( 48, 0, 48, 48 )
+
+[sub_resource type="AtlasTexture" id=151]
+flags = 4
+atlas = ExtResource( 23 )
+region = Rect2( 96, 0, 48, 48 )
+
+[sub_resource type="AtlasTexture" id=152]
+flags = 4
+atlas = ExtResource( 23 )
+region = Rect2( 144, 0, 48, 48 )
+
+[sub_resource type="AtlasTexture" id=153]
+flags = 4
+atlas = ExtResource( 23 )
+region = Rect2( 192, 0, 48, 48 )
+
+[sub_resource type="AtlasTexture" id=154]
+flags = 4
+atlas = ExtResource( 23 )
+region = Rect2( 240, 0, 48, 48 )
+
+[sub_resource type="AtlasTexture" id=155]
+flags = 4
+atlas = ExtResource( 23 )
+region = Rect2( 288, 0, 48, 48 )
+
+[sub_resource type="AtlasTexture" id=156]
+flags = 4
+atlas = ExtResource( 33 )
+region = Rect2( 0, 0, 48, 48 )
+
+[sub_resource type="AtlasTexture" id=157]
+flags = 4
+atlas = ExtResource( 33 )
+region = Rect2( 48, 0, 48, 48 )
+
+[sub_resource type="AtlasTexture" id=158]
+flags = 4
+atlas = ExtResource( 33 )
+region = Rect2( 96, 0, 48, 48 )
+
+[sub_resource type="AtlasTexture" id=159]
+flags = 4
+atlas = ExtResource( 33 )
+region = Rect2( 144, 0, 48, 48 )
+
+[sub_resource type="AtlasTexture" id=160]
+flags = 4
+atlas = ExtResource( 33 )
+region = Rect2( 192, 0, 48, 48 )
+
+[sub_resource type="SpriteFrames" id=161]
+animations = [ {
+"frames": [ SubResource( 149 ), SubResource( 150 ), SubResource( 151 ), SubResource( 152 ), SubResource( 153 ), SubResource( 154 ), SubResource( 155 ), SubResource( 156 ), SubResource( 157 ), SubResource( 158 ), SubResource( 159 ), SubResource( 160 ) ],
+"loop": true,
+"name": "walk",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=162]
+flags = 4
+atlas = ExtResource( 27 )
+region = Rect2( 0, 0, 61, 20 )
+
+[sub_resource type="AtlasTexture" id=163]
+flags = 4
+atlas = ExtResource( 27 )
+region = Rect2( 61, 0, 61, 20 )
+
+[sub_resource type="AtlasTexture" id=164]
+flags = 4
+atlas = ExtResource( 27 )
+region = Rect2( 122, 0, 61, 20 )
+
+[sub_resource type="AtlasTexture" id=165]
+flags = 4
+atlas = ExtResource( 27 )
+region = Rect2( 183, 0, 61, 20 )
+
+[sub_resource type="AtlasTexture" id=166]
+flags = 4
+atlas = ExtResource( 27 )
+region = Rect2( 0, 20, 61, 20 )
+
+[sub_resource type="AtlasTexture" id=167]
+flags = 4
+atlas = ExtResource( 27 )
+region = Rect2( 61, 20, 61, 20 )
+
+[sub_resource type="AtlasTexture" id=168]
+flags = 4
+atlas = ExtResource( 27 )
+region = Rect2( 122, 20, 61, 20 )
+
+[sub_resource type="AtlasTexture" id=169]
+flags = 4
+atlas = ExtResource( 27 )
+region = Rect2( 183, 20, 61, 20 )
+
+[sub_resource type="AtlasTexture" id=170]
+flags = 4
+atlas = ExtResource( 27 )
+region = Rect2( 0, 40, 61, 20 )
+
+[sub_resource type="AtlasTexture" id=171]
+flags = 4
+atlas = ExtResource( 27 )
+region = Rect2( 61, 40, 61, 20 )
+
+[sub_resource type="AtlasTexture" id=172]
+flags = 4
+atlas = ExtResource( 27 )
+region = Rect2( 122, 40, 61, 20 )
+
+[sub_resource type="AtlasTexture" id=173]
+flags = 4
+atlas = ExtResource( 27 )
+region = Rect2( 183, 40, 61, 20 )
+
+[sub_resource type="AtlasTexture" id=174]
+flags = 4
+atlas = ExtResource( 32 )
+region = Rect2( 0, 0, 47, 75 )
+
+[sub_resource type="AtlasTexture" id=175]
+flags = 4
+atlas = ExtResource( 32 )
+region = Rect2( 47, 0, 47, 75 )
+
+[sub_resource type="AtlasTexture" id=176]
+flags = 4
+atlas = ExtResource( 32 )
+region = Rect2( 94, 0, 47, 75 )
+
+[sub_resource type="AtlasTexture" id=177]
+flags = 4
+atlas = ExtResource( 32 )
+region = Rect2( 141, 0, 47, 75 )
+
+[sub_resource type="AtlasTexture" id=178]
+flags = 4
+atlas = ExtResource( 32 )
+region = Rect2( 0, 75, 47, 75 )
+
+[sub_resource type="AtlasTexture" id=179]
+flags = 4
+atlas = ExtResource( 32 )
+region = Rect2( 47, 75, 47, 75 )
+
+[sub_resource type="AtlasTexture" id=180]
+flags = 4
+atlas = ExtResource( 32 )
+region = Rect2( 94, 75, 47, 75 )
+
+[sub_resource type="AtlasTexture" id=181]
+flags = 4
+atlas = ExtResource( 32 )
+region = Rect2( 141, 75, 47, 75 )
+
+[sub_resource type="AtlasTexture" id=182]
+flags = 4
+atlas = ExtResource( 32 )
+region = Rect2( 0, 150, 47, 75 )
+
+[sub_resource type="AtlasTexture" id=183]
+flags = 4
+atlas = ExtResource( 32 )
+region = Rect2( 47, 150, 47, 75 )
+
+[sub_resource type="AtlasTexture" id=184]
+flags = 4
+atlas = ExtResource( 32 )
+region = Rect2( 94, 150, 47, 75 )
+
+[sub_resource type="AtlasTexture" id=185]
+flags = 4
+atlas = ExtResource( 32 )
+region = Rect2( 141, 150, 47, 75 )
+
+[sub_resource type="SpriteFrames" id=186]
+animations = [ {
+"frames": [ SubResource( 162 ), SubResource( 163 ), SubResource( 164 ), SubResource( 165 ), SubResource( 166 ), SubResource( 167 ), SubResource( 168 ), SubResource( 169 ), SubResource( 170 ), SubResource( 171 ), SubResource( 172 ), SubResource( 173 ), SubResource( 174 ), SubResource( 175 ), SubResource( 176 ), SubResource( 177 ), SubResource( 178 ), SubResource( 179 ), SubResource( 180 ), SubResource( 181 ), SubResource( 182 ), SubResource( 183 ), SubResource( 184 ), SubResource( 185 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=187]
+flags = 4
+atlas = ExtResource( 26 )
+region = Rect2( 0, 0, 1464, 133 )
+
+[sub_resource type="AtlasTexture" id=188]
+flags = 4
+atlas = ExtResource( 26 )
+region = Rect2( 1464, 0, 1464, 133 )
+
+[sub_resource type="AtlasTexture" id=189]
+flags = 4
+atlas = ExtResource( 26 )
+region = Rect2( 2928, 0, 1464, 133 )
+
+[sub_resource type="AtlasTexture" id=190]
+flags = 4
+atlas = ExtResource( 26 )
+region = Rect2( 4392, 0, 1464, 133 )
+
+[sub_resource type="AtlasTexture" id=191]
+flags = 4
+atlas = ExtResource( 26 )
+region = Rect2( 5856, 0, 1464, 133 )
+
+[sub_resource type="AtlasTexture" id=192]
+flags = 4
+atlas = ExtResource( 26 )
+region = Rect2( 7320, 0, 1464, 133 )
+
+[sub_resource type="AtlasTexture" id=193]
+flags = 4
+atlas = ExtResource( 26 )
+region = Rect2( 0, 133, 1464, 133 )
+
+[sub_resource type="AtlasTexture" id=194]
+flags = 4
+atlas = ExtResource( 26 )
+region = Rect2( 1464, 133, 1464, 133 )
+
+[sub_resource type="AtlasTexture" id=195]
+flags = 4
+atlas = ExtResource( 26 )
+region = Rect2( 2928, 133, 1464, 133 )
+
+[sub_resource type="AtlasTexture" id=196]
+flags = 4
+atlas = ExtResource( 26 )
+region = Rect2( 4392, 133, 1464, 133 )
+
+[sub_resource type="AtlasTexture" id=197]
+flags = 4
+atlas = ExtResource( 26 )
+region = Rect2( 5856, 133, 1464, 133 )
+
+[sub_resource type="AtlasTexture" id=198]
+flags = 4
+atlas = ExtResource( 26 )
+region = Rect2( 7320, 133, 1464, 133 )
+
+[sub_resource type="AtlasTexture" id=199]
+flags = 4
+atlas = ExtResource( 26 )
+region = Rect2( 0, 266, 1464, 133 )
+
+[sub_resource type="SpriteFrames" id=200]
+animations = [ {
+"frames": [ SubResource( 187 ), SubResource( 188 ), SubResource( 189 ), SubResource( 190 ), SubResource( 191 ), SubResource( 192 ), SubResource( 193 ), SubResource( 194 ), SubResource( 195 ), SubResource( 196 ), SubResource( 197 ), SubResource( 198 ), SubResource( 199 ) ],
+"loop": true,
+"name": "beam",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=21]
+animations = [ {
+"frames": [ ExtResource( 18 ), ExtResource( 19 ), ExtResource( 21 ), ExtResource( 20 ), ExtResource( 16 ), ExtResource( 22 ), ExtResource( 12 ), ExtResource( 8 ), ExtResource( 1 ), ExtResource( 9 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 11 ), ExtResource( 3 ), ExtResource( 7 ), ExtResource( 2 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 10 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=1]
+flags = 4
+atlas = ExtResource( 17 )
+region = Rect2( 0, 0, 16, 24 )
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 4
+atlas = ExtResource( 17 )
+region = Rect2( 16, 0, 16, 24 )
+
+[sub_resource type="AtlasTexture" id=3]
+flags = 4
+atlas = ExtResource( 17 )
+region = Rect2( 32, 0, 16, 24 )
+
+[sub_resource type="AtlasTexture" id=4]
+flags = 4
+atlas = ExtResource( 17 )
+region = Rect2( 48, 0, 16, 24 )
+
+[sub_resource type="AtlasTexture" id=5]
+flags = 4
+atlas = ExtResource( 17 )
+region = Rect2( 64, 0, 16, 24 )
+
+[sub_resource type="AtlasTexture" id=6]
+flags = 4
+atlas = ExtResource( 17 )
+region = Rect2( 0, 48, 16, 24 )
+
+[sub_resource type="AtlasTexture" id=7]
+flags = 4
+atlas = ExtResource( 17 )
+region = Rect2( 16, 48, 16, 24 )
+
+[sub_resource type="AtlasTexture" id=8]
+flags = 4
+atlas = ExtResource( 17 )
+region = Rect2( 32, 48, 16, 24 )
+
+[sub_resource type="AtlasTexture" id=9]
+flags = 4
+atlas = ExtResource( 17 )
+region = Rect2( 48, 48, 16, 24 )
+
+[sub_resource type="AtlasTexture" id=10]
+flags = 4
+atlas = ExtResource( 17 )
+region = Rect2( 64, 48, 16, 24 )
+
+[sub_resource type="SpriteFrames" id=11]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ) ],
+"loop": true,
+"name": "Dead",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=341]
+animations = [ {
+"frames": [ ExtResource( 111 ), ExtResource( 112 ), ExtResource( 113 ), ExtResource( 115 ), ExtResource( 114 ), ExtResource( 117 ), ExtResource( 118 ), ExtResource( 116 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 110 ), ExtResource( 85 ), ExtResource( 76 ), ExtResource( 75 ), ExtResource( 98 ), ExtResource( 82 ), ExtResource( 96 ), ExtResource( 104 ), ExtResource( 74 ), ExtResource( 86 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 87 ), ExtResource( 103 ), ExtResource( 79 ) ],
+"loop": true,
+"name": "default",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 271 ), ExtResource( 255 ), ExtResource( 241 ), ExtResource( 270 ), ExtResource( 269 ), ExtResource( 251 ), ExtResource( 275 ), ExtResource( 277 ), ExtResource( 244 ), ExtResource( 265 ), ExtResource( 285 ), ExtResource( 252 ), ExtResource( 243 ), ExtResource( 242 ), ExtResource( 267 ), ExtResource( 276 ), ExtResource( 247 ), ExtResource( 268 ), ExtResource( 282 ), ExtResource( 260 ), ExtResource( 245 ), ExtResource( 262 ), ExtResource( 246 ), ExtResource( 266 ), ExtResource( 278 ) ],
+"loop": true,
+"name": "idle",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 93 ), ExtResource( 84 ), ExtResource( 95 ), ExtResource( 99 ), ExtResource( 88 ), ExtResource( 97 ), ExtResource( 83 ), ExtResource( 100 ), ExtResource( 101 ), ExtResource( 102 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 92 ), ExtResource( 89 ), ExtResource( 94 ), ExtResource( 91 ), ExtResource( 105 ), ExtResource( 90 ), ExtResource( 106 ), ExtResource( 107 ), ExtResource( 73 ), ExtResource( 72 ), ExtResource( 39 ), ExtResource( 63 ), ExtResource( 67 ) ],
+"loop": true,
+"name": "death",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 144 ), ExtResource( 129 ), ExtResource( 146 ), ExtResource( 138 ), ExtResource( 148 ), ExtResource( 158 ), ExtResource( 123 ), ExtResource( 119 ), ExtResource( 150 ), ExtResource( 130 ), ExtResource( 120 ), ExtResource( 141 ), ExtResource( 124 ), ExtResource( 156 ), ExtResource( 125 ), ExtResource( 142 ), ExtResource( 132 ), ExtResource( 163 ), ExtResource( 143 ), ExtResource( 134 ), ExtResource( 122 ), ExtResource( 135 ), ExtResource( 145 ), ExtResource( 151 ), ExtResource( 149 ) ],
+"loop": true,
+"name": "hit",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 41 ), ExtResource( 46 ), ExtResource( 54 ), ExtResource( 40 ), ExtResource( 60 ), ExtResource( 64 ), ExtResource( 47 ), ExtResource( 70 ), ExtResource( 44 ), ExtResource( 56 ), ExtResource( 50 ), ExtResource( 58 ), ExtResource( 52 ), ExtResource( 48 ), ExtResource( 38 ), ExtResource( 49 ), ExtResource( 42 ), ExtResource( 65 ), ExtResource( 51 ), ExtResource( 55 ), ExtResource( 69 ), ExtResource( 66 ), ExtResource( 53 ), ExtResource( 59 ), ExtResource( 57 ) ],
+"loop": true,
+"name": "grr",
+"speed": 20.0
+} ]
+
+[sub_resource type="SpriteFrames" id=342]
+animations = [ {
+"frames": [ ExtResource( 61 ), ExtResource( 62 ), ExtResource( 68 ), ExtResource( 45 ), ExtResource( 43 ), ExtResource( 71 ), ExtResource( 206 ), ExtResource( 205 ), ExtResource( 203 ), ExtResource( 204 ), ExtResource( 230 ), ExtResource( 224 ), ExtResource( 235 ), ExtResource( 213 ), ExtResource( 232 ), ExtResource( 236 ), ExtResource( 220 ), ExtResource( 207 ), ExtResource( 208 ), ExtResource( 210 ), ExtResource( 212 ), ExtResource( 209 ), ExtResource( 211 ), ExtResource( 214 ), ExtResource( 202 ) ],
+"loop": true,
+"name": "default",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 248 ), ExtResource( 272 ), ExtResource( 256 ), ExtResource( 273 ), ExtResource( 274 ), ExtResource( 249 ), ExtResource( 279 ), ExtResource( 237 ), ExtResource( 286 ), ExtResource( 264 ), ExtResource( 280 ), ExtResource( 281 ), ExtResource( 259 ), ExtResource( 254 ), ExtResource( 283 ), ExtResource( 284 ), ExtResource( 238 ), ExtResource( 239 ), ExtResource( 261 ), ExtResource( 250 ), ExtResource( 258 ), ExtResource( 257 ), ExtResource( 240 ), ExtResource( 253 ), ExtResource( 263 ) ],
+"loop": true,
+"name": "idle",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 234 ), ExtResource( 231 ), ExtResource( 216 ), ExtResource( 215 ), ExtResource( 217 ), ExtResource( 218 ), ExtResource( 226 ), ExtResource( 219 ), ExtResource( 221 ), ExtResource( 222 ), ExtResource( 233 ), ExtResource( 227 ), ExtResource( 223 ), ExtResource( 228 ), ExtResource( 225 ), ExtResource( 229 ), ExtResource( 196 ), ExtResource( 201 ), ExtResource( 172 ), ExtResource( 194 ), ExtResource( 173 ), ExtResource( 178 ), ExtResource( 182 ), ExtResource( 168 ) ],
+"loop": true,
+"name": "death",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 188 ), ExtResource( 190 ), ExtResource( 154 ), ExtResource( 157 ), ExtResource( 121 ), ExtResource( 165 ), ExtResource( 152 ), ExtResource( 147 ), ExtResource( 136 ), ExtResource( 159 ), ExtResource( 126 ), ExtResource( 160 ), ExtResource( 137 ), ExtResource( 131 ), ExtResource( 128 ), ExtResource( 153 ), ExtResource( 164 ), ExtResource( 133 ), ExtResource( 161 ), ExtResource( 127 ), ExtResource( 140 ), ExtResource( 162 ), ExtResource( 139 ), ExtResource( 155 ), ExtResource( 166 ) ],
+"loop": true,
+"name": "hit",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 179 ), ExtResource( 197 ), ExtResource( 169 ), ExtResource( 199 ), ExtResource( 200 ), ExtResource( 193 ), ExtResource( 167 ), ExtResource( 195 ), ExtResource( 174 ), ExtResource( 183 ), ExtResource( 191 ), ExtResource( 198 ), ExtResource( 180 ), ExtResource( 189 ), ExtResource( 181 ), ExtResource( 192 ), ExtResource( 184 ), ExtResource( 171 ), ExtResource( 170 ), ExtResource( 175 ), ExtResource( 176 ), ExtResource( 185 ), ExtResource( 177 ), ExtResource( 186 ), ExtResource( 187 ) ],
+"loop": true,
+"name": "grr",
+"speed": 20.0
+} ]
+
+[sub_resource type="AtlasTexture" id=12]
+flags = 4
+atlas = ExtResource( 15 )
+region = Rect2( 0, 288, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=13]
+flags = 4
+atlas = ExtResource( 15 )
+region = Rect2( 32, 288, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=14]
+flags = 4
+atlas = ExtResource( 15 )
+region = Rect2( 64, 288, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=15]
+flags = 4
+atlas = ExtResource( 15 )
+region = Rect2( 96, 288, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=16]
+flags = 4
+atlas = ExtResource( 15 )
+region = Rect2( 128, 288, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=17]
+flags = 4
+atlas = ExtResource( 15 )
+region = Rect2( 160, 288, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=18]
+flags = 4
+atlas = ExtResource( 15 )
+region = Rect2( 192, 288, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=19]
+flags = 4
+atlas = ExtResource( 15 )
+region = Rect2( 224, 288, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=22]
+flags = 4
+atlas = ExtResource( 15 )
+region = Rect2( 32, 160, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=23]
+flags = 4
+atlas = ExtResource( 15 )
+region = Rect2( 64, 160, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=24]
+flags = 4
+atlas = ExtResource( 15 )
+region = Rect2( 96, 160, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=25]
+flags = 4
+atlas = ExtResource( 15 )
+region = Rect2( 64, 256, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=26]
+flags = 4
+atlas = ExtResource( 15 )
+region = Rect2( 32, 256, 32, 32 )
+
+[sub_resource type="SpriteFrames" id=20]
+animations = [ {
+"frames": [ SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 22 ), SubResource( 23 ), SubResource( 24 ), SubResource( 25 ), SubResource( 26 ) ],
+"loop": true,
+"name": "Launch",
+"speed": 5.0
+} ]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 36 )
+
+[node name="Boss" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+rect_pivot_offset = Vector2( -862, 604 )
+
+[node name="Boss_Flea" type="AnimatedSprite" parent="Boss"]
+position = Vector2( 837, 432 )
+scale = Vector2( 1.26058, 1.26058 )
+frames = SubResource( 148 )
+animation = "grr"
+frame = 112
+speed_scale = 4.0
+playing = true
+
+[node name="Boss_Frog" type="AnimatedSprite" parent="Boss"]
+position = Vector2( 874, 161 )
+frames = SubResource( 85 )
+animation = "walkBite"
+frame = 12
+speed_scale = 4.0
+playing = true
+
+[node name="Boss_SoulHunter" type="AnimatedSprite" parent="Boss"]
+position = Vector2( 544, 129 )
+scale = Vector2( 7.3125, 7.3125 )
+frames = SubResource( 161 )
+animation = "walk"
+frame = 2
+speed_scale = 1.5
+playing = true
+
+[node name="Effect" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+
+[node name="Effect_Acid" type="AnimatedSprite" parent="Effect"]
+position = Vector2( 648, 839 )
+scale = Vector2( 7, 7 )
+frames = SubResource( 186 )
+speed_scale = 5.0
+playing = true
+
+[node name="Effect_Laser" type="AnimatedSprite" parent="Effect"]
+position = Vector2( 1061, 661 )
+frames = SubResource( 200 )
+animation = "beam"
+frame = 8
+speed_scale = 3.0
+playing = true
+
+[node name="Effect_Lightning" type="AnimatedSprite" parent="Effect"]
+position = Vector2( 272, 859 )
+frames = SubResource( 21 )
+frame = 10
+playing = true
+flip_v = true
+
+[node name="Mob" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+
+[node name="Mob_Bat" type="AnimatedSprite" parent="Mob"]
+position = Vector2( 199, 261 )
+scale = Vector2( 19.0312, 19.0312 )
+frames = SubResource( 11 )
+playing = true
+
+[node name="Mob_Eye_Boi_1" type="AnimatedSprite" parent="Mob"]
+position = Vector2( 1245, 225 )
+frames = SubResource( 341 )
+frame = 16
+playing = true
+
+[node name="Mob_Eye_Boi_2" type="AnimatedSprite" parent="Mob"]
+position = Vector2( 560, 440 )
+frames = SubResource( 342 )
+frame = 2
+playing = true
+
+[node name="Tower" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+
+[node name="Tower_CatLauncher" type="AnimatedSprite" parent="Tower"]
+position = Vector2( 237, 357 )
+scale = Vector2( 15.4219, 15.4219 )
+frames = SubResource( 20 )
+animation = "Launch"
+frame = 2
+playing = true
+flip_h = true
